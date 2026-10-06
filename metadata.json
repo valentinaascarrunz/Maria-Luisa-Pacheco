@@ -1,0 +1,6 @@
+{
+  "name": "María Luisa Pacheco — Archivo y Legado Oficial",
+  "description": "Sitio oficial de la pintora boliviana María Luisa Pacheco (1919–1982), pionera de la abstracción en Bolivia. Publicado por sus herederos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

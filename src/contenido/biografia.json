@@ -1,0 +1,105 @@
+[
+  {
+    "id": "capitulo-1",
+    "numero": "01",
+    "titulo": "La Paz (1919–1951)",
+    "titulo_en": "La Paz (1919–1951)",
+    "subtitulo": "Raíces andinas, formación clásica e ilustración",
+    "subtitulo_en": "Andean Roots, Classical Training, and Illustration",
+    "contenido": "María Luisa Mariaca Dietrich nació el 22 de septiembre de 1919 en La Paz [VERIFICAR: el Smithsonian indica 1918]. Era hija del arquitecto y urbanista modernista Julio Mariaca Pando [VERIFICAR: fechas del padre, 1890–1936] y de [PENDIENTE: nombre de la madre]. Aprendió sus primeras herramientas de dibujo en el estudio de su padre.\n\nEn 1936 ingresó a la Academia Nacional de Bellas Artes Hernando Siles, donde estudió con los maestros indigenistas Cecilio Guzmán de Rojas y Jorge de la Reza, y donde más tarde fue profesora. A mediados de los años cuarenta también hizo escultura. Desde 1946 trabajó en el diario La Razón como retratista e ilustradora y llegó a dirigir su sección artística y literaria. En 1948 ilustró el libro La Paz en su IV Centenario 1548–1948.\n\nSe casó con [PENDIENTE: nombre del esposo] y tomó el apellido Pacheco. [PENDIENTE: año del matrimonio, nombres de los hijos].",
+    "contenido_en": "María Luisa Mariaca Dietrich was born on September 22, 1919 in La Paz [VERIFICAR: the Smithsonian indicates 1918]. She was the daughter of modernist architect and urbanist Julio Mariaca Pando [VERIFICAR: father's dates, 1890–1936] and [PENDIENTE: mother's name]. She acquired her first drafting and drawing tools in her father's architectural studio.\n\nIn 1936 she entered the Academia Nacional de Bellas Artes Hernando Siles, studying under indigenist masters Cecilio Guzmán de Rojas and Jorge de la Reza, where she later taught as a professor. In the mid-1940s she also produced sculpture. Beginning in 1946, she worked at the newspaper La Razón as a portraitist and illustrator, rising to direct its arts and literary section. In 1948 she illustrated the landmark volume La Paz en su IV Centenario 1548–1948.\n\nShe married [PENDIENTE: husband's name] and adopted the surname Pacheco. [PENDIENTE: marriage year, children's names].",
+    "foto_archivo": {
+      "imagen": "/imagenes/biografia/capitulo-1-lapaz.jpg",
+      "pie": "La Paz en las primeras décadas del siglo XX. Vista de la cuenca andina dominada por el Illimani.",
+      "pie_en": "La Paz in the early decades of the 20th century. View of the Andean basin framed by Mount Illimani."
+    },
+    "citas": []
+  },
+  {
+    "id": "capitulo-2",
+    "numero": "02",
+    "titulo": "Madrid (1951–1952)",
+    "titulo_en": "Madrid (1951–1952)",
+    "subtitulo": "El encuentro europeo y la revelación del cubismo",
+    "subtitulo_en": "The European Encounter and the Revelation of Cubism",
+    "contenido": "Con una beca del gobierno español estudió en la Real Academia de Bellas Artes de San Fernando y en el taller del pintor cubista Daniel Vázquez Díaz. Estudió la obra de Picasso, Braque y Juan Gris.",
+    "contenido_en": "On a fellowship awarded by the Spanish government, she studied at the Real Academia de Bellas Artes de San Fernando and in the studio of Cubist painter Daniel Vázquez Díaz. She intensively analyzed the works of Picasso, Braque, and Juan Gris.",
+    "foto_archivo": {
+      "imagen": "/imagenes/biografia/capitulo-2-madrid.jpg",
+      "pie": "Madrid, c. 1951. La Real Academia de Bellas Artes de San Fernando y los museos madrileños.",
+      "pie_en": "Madrid, c. 1951. The Real Academia de Bellas Artes de San Fernando and Madrid's museums."
+    },
+    "citas": [
+      {
+        "cita": "En cuanto llegué a Madrid fui al Museo del Prado. Al ver los cuadros de Velásquez y el Greco me sentí a punto de desplomarme.",
+        "traduccion_en": "As soon as I arrived in Madrid I went to the Prado Museum. Seeing the paintings of Velázquez and El Greco, I felt on the verge of collapsing."
+      },
+      {
+        "cita": "El arte tuvo un nuevo significado para mí.",
+        "traduccion_en": "Art took on an entirely new meaning for me."
+      }
+    ]
+  },
+  {
+    "id": "capitulo-3",
+    "numero": "03",
+    "titulo": "Los Ocho Contemporáneos (1952–1956)",
+    "titulo_en": "Los Ocho Contemporáneos (1952–1956)",
+    "subtitulo": "La ruptura vanguardista y la Generación del 52",
+    "subtitulo_en": "The Avant-Garde Breakthrough and the Generation of '52",
+    "contenido": "De vuelta en La Paz cofundó el grupo Los Ocho Contemporáneos, también conocido como la Generación del 52. En 1953 el grupo organizó la primera exposición de pintura abstracta en Bolivia, en el Salón Municipal de La Paz. Ese mismo año ganó el primer premio del Salón Pedro Domingo Murillo [VERIFICAR: con la obra Siembra]. Su pintura de esta etapa une la fragmentación cubista con temas andinos, quechuas y aymaras.",
+    "contenido_en": "Back in La Paz, she co-founded the group Los Ocho Contemporáneos, also known as the Generation of '52. In 1953, the collective organized the first exhibition of abstract painting in Bolivia at the Salón Municipal in La Paz. That same year she won First Prize at the Salón Pedro Domingo Murillo [VERIFICAR: with the work Siembra]. Her painting during this phase fused Cubist geometric planar fragmentation with Andean, Quechua, and Aymara themes.",
+    "foto_archivo": {
+      "imagen": "/imagenes/biografia/capitulo-3-ocho-contemporaneos.jpg",
+      "pie": "Documentación de la vanguardia boliviana de la Generación del 52.",
+      "pie_en": "Documentation of the Bolivian avant-garde of the Generation of '52."
+    },
+    "citas": []
+  },
+  {
+    "id": "capitulo-4",
+    "numero": "04",
+    "titulo": "Nueva York (1956–1982)",
+    "titulo_en": "New York (1956–1982)",
+    "subtitulo": "Madurez matérica, Guggenheim y consagración internacional",
+    "subtitulo_en": "Material Maturity, Guggenheim Fellowships, and International Acclaim",
+    "contenido": "En 1956 se mudó a Nueva York, a los 37 años [VERIFICAR: llegó como madre joven con dos hijos; una fuente indica que se separó ese año]. Al principio trabajó como ilustradora para la revista LIFE y como diseñadora textil [VERIFICAR: en New Line Designers Studio]. Recibió tres becas Guggenheim consecutivas (1958, 1959 y 1960) y el premio de pintura de la Bienal de São Paulo de 1959. La representó la galería Lee Ault & Company [VERIFICAR: la galería abrió en 1971 a raíz de su obra].\n\nEn Nueva York su pintura se volvió plenamente abstracta, con influencia del expresionismo abstracto y del informalismo europeo, y cada vez con más materia: óleo aplicado con espátula, arena, madera balsa, cartón y collage. Nunca se desconectó de Bolivia: fue directora artística de las Bienales INBO de La Paz [VERIFICAR: 1975, 1977 y 1981] y en 1976 dio una conferencia sobre arte abstracto en el Museo Nacional de Arte.",
+    "contenido_en": "In 1956 she moved to New York at age 37 [VERIFICAR: arrived as a young mother with two children; one source states she separated that year]. Initially she worked as an illustrator for LIFE magazine and as a textile designer [VERIFICAR: at New Line Designers Studio]. She was awarded three consecutive Guggenheim Fellowships (1958, 1959, and 1960) and the Painting Prize at the São Paulo Biennial in 1959. She was represented by the Lee Ault & Company gallery [VERIFICAR: the gallery opened in 1971 inspired by her work].\n\nIn New York her painting turned fully abstract, informed by Abstract Expressionism and European Informalisme, incorporating ever-increasing physical materiality: impasto applied with palette knives, sand, balsa wood, cardboard, and collage. She maintained an enduring connection to Bolivia: she served as artistic director of the INBO Biennials in La Paz [VERIFICAR: 1975, 1977, and 1981] and delivered a major lecture on abstract art at the Museo Nacional de Arte in 1976.",
+    "foto_archivo": {
+      "imagen": "/imagenes/biografia/capitulo-4-estudio-ny.jpg",
+      "pie": "Estudio neoyorquino de María Luisa Pacheco, entre óleos, espátulas y maderas.",
+      "pie_en": "María Luisa Pacheco's New York studio, among oils, palette knives, and woods."
+    },
+    "citas": [
+      {
+        "cita": "La pintura actual, antes de ser un paisaje o una figura, es esencialmente una superficie plana cubierta de colores.",
+        "traduccion_en": "Contemporary painting, before being a landscape or a figure, is essentially a flat surface covered with colors."
+      },
+      {
+        "cita": "Yo comienzo a pintar cuando se establece un contacto entre la obra y la imagen que formé en mi mente.",
+        "traduccion_en": "I begin to paint when contact is forged between the physical work and the image formed in my mind."
+      }
+    ]
+  },
+  {
+    "id": "capitulo-5",
+    "numero": "05",
+    "titulo": "Legado",
+    "titulo_en": "Legacy",
+    "subtitulo": "Reconocimiento histórico y permanencia",
+    "subtitulo_en": "Historical Recognition and Enduring Presence",
+    "contenido": "Murió en Nueva York en abril de 1982 [VERIFICAR: el 21 o el 23 de abril], a los 62 años. Ese mismo año su hija, María Eugenia Ascarrunz, donó sus papeles al Archives of American Art del Smithsonian. Hoy es reconocida como la artista boliviana de mayor proyección internacional del siglo XX y como la introductora de la abstracción en su país. Influyó en artistas como Alfredo La Placa y Enrique Arnal.\n\n[PENDIENTE: texto de la familia — recuerdos y cómo era ella]",
+    "contenido_en": "She passed away in New York in April 1982 [VERIFICAR: April 21 or 23], at the age of 62. That same year her daughter, María Eugenia Ascarrunz, donated her papers to the Smithsonian Archives of American Art. Today she is revered as the 20th-century Bolivian artist of greatest international reach and the trailblazer who introduced abstraction to her homeland, leaving an indelible imprint on artists such as Alfredo La Placa and Enrique Arnal.\n\n[PENDIENTE: family text — memories and personal recollections]",
+    "foto_archivo": {
+      "imagen": "/imagenes/biografia/capitulo-5-legado.jpg",
+      "pie": "Legado y archivo de María Luisa Pacheco.",
+      "pie_en": "Legacy and archives of María Luisa Pacheco."
+    },
+    "citas": [
+      {
+        "cita": "No debemos reemplazar el pasado, sólo tenemos que añadir un eslabón más.",
+        "traduccion_en": "We must not replace the past; we only have to add one more link to the chain."
+      }
+    ]
+  }
+]

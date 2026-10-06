@@ -1,0 +1,136 @@
+{
+  "fondo_documental": {
+    "titulo": "María Luisa Pacheco papers, 1951–c. 1980",
+    "titulo_en": "María Luisa Pacheco papers, 1951–c. 1980",
+    "institucion": "Archives of American Art, Smithsonian Institution",
+    "institucion_en": "Archives of American Art, Smithsonian Institution",
+    "donacion": "Donación de María Eugenia Ascarrunz, 1982",
+    "donacion_en": "Donated by María Eugenia Ascarrunz, 1982",
+    "descripcion": "El fondo documental comprende correspondencia personal y profesional, cuadernos de bocetos, recortes de prensa, fotografías de estudio, catálogos de exposiciones y registros de su actividad como pintora en Nueva York y La Paz.",
+    "descripcion_en": "The archival collection comprises personal and professional correspondence, sketchbooks, press clippings, studio photographs, exhibition catalogs, and records of her activity as an artist in New York and La Paz.",
+    "enlace": "https://www.aaa.si.edu/collections/mara-luisa-pacheco-papers-5518"
+  },
+  "fotografias_archivo": [
+    {
+      "id": "foto-smithsonian-estudio",
+      "titulo": "María Luisa Pacheco pintando en su estudio, c. 1960",
+      "titulo_en": "María Luisa Pacheco painting in her studio, c. 1960",
+      "fuente": "Archives of American Art, Smithsonian Institution",
+      "fuente_en": "Archives of American Art, Smithsonian Institution",
+      "enlace": "https://www.aaa.si.edu/collections/items/detail/photograph-mara-luisa-pacheco-painting-her-studio-21158",
+      "marcador": null,
+      "imagen": "/imagenes/archivo/estudio-1960-smithsonian.jpg"
+    },
+    {
+      "id": "foto-familia-pendiente",
+      "titulo": "[PENDIENTE: fotos de la familia]",
+      "titulo_en": "[PENDIENTE: family photographs]",
+      "fuente": "Archivo de la familia / Herederos",
+      "fuente_en": "Family Archive / Heirs",
+      "enlace": "",
+      "marcador": "[PENDIENTE: fotos de la familia]",
+      "imagen": "/imagenes/archivo/familia-pendiente.jpg"
+    }
+  ],
+  "bibliografia": [
+    {
+      "autor": "Bayá Botti, Cecilia (ed.)",
+      "titulo": "María Luisa Pacheco",
+      "publicacion": "La Paz: Editorial Oxígeno, 2010",
+      "tipo": "Monografía / Libro"
+    },
+    {
+      "autor": "Barnitz, Jacqueline",
+      "titulo": "María Luisa Pacheco en el mundo del arte internacional",
+      "publicacion": "en Bayá Botti, Cecilia (ed.), María Luisa Pacheco, La Paz: Editorial Oxígeno, 2010",
+      "tipo": "Ensayo crítico"
+    },
+    {
+      "autor": "Francovich, Guillermo",
+      "titulo": "María Luisa Pacheco",
+      "publicacion": "en Bayá Botti, Cecilia (ed.), María Luisa Pacheco, La Paz: Editorial Oxígeno, 2010",
+      "tipo": "Ensayo"
+    },
+    {
+      "autor": "Ángel, Félix",
+      "titulo": "The work of María Luisa Pacheco",
+      "publicacion": "en Tribute to María Luisa Pacheco of Bolivia, Washington: Museum of Modern Art of Latin America (OAS), 1986",
+      "tipo": "Ensayo curatorial"
+    },
+    {
+      "autor": "De Mesa, José y Gisbert, Teresa",
+      "titulo": "Pintura contemporánea en Bolivia",
+      "publicacion": "La Paz, 1967",
+      "tipo": "Historia del arte"
+    },
+    {
+      "autor": "Salazar Mostajo, Carlos",
+      "titulo": "La pintura contemporánea de Bolivia. Ensayo histórico-crítico",
+      "publicacion": "La Paz: Ediciones Juventud, 1989",
+      "tipo": "Ensayo histórico-crítico"
+    },
+    {
+      "autor": "Querejazu, Pedro",
+      "titulo": "Pintura en Bolivia en el siglo XX",
+      "publicacion": "La Paz, 2018",
+      "tipo": "Historia del arte"
+    },
+    {
+      "autor": "Luna Ortuño, Jorge",
+      "titulo": "La otra búsqueda en la pintura de María Luisa Pacheco: la síntesis creadora",
+      "publicacion": "Revista Aportes de la Comunicación y la Cultura, 2024",
+      "tipo": "Artículo académico"
+    }
+  ],
+  "enlaces_en_linea": [
+    {
+      "titulo": "Archives of American Art (Smithsonian Institution) — Colección y Fotografía de Estudio",
+      "titulo_en": "Archives of American Art (Smithsonian Institution) — Papers & Studio Photograph",
+      "url": "https://www.aaa.si.edu/collections/mara-luisa-pacheco-papers-5518",
+      "detalle": "Fondo documental donado por su hija María Eugenia Ascarrunz en 1982.",
+      "detalle_en": "Documentary papers donated by her daughter María Eugenia Ascarrunz in 1982."
+    },
+    {
+      "titulo": "Google Arts & Culture — Composición (1960)",
+      "titulo_en": "Google Arts & Culture — Composition (1960)",
+      "url": "https://artsandculture.google.com/asset/composition/LwHeGUyqmqiRxg",
+      "detalle": "Obra en la colección del Art Museum of the Americas (OEA).",
+      "detalle_en": "Artwork in the Art Museum of the Americas (OAS) collection."
+    },
+    {
+      "titulo": "Blanton Museum of Art, UT Austin — Catavi (1974)",
+      "titulo_en": "Blanton Museum of Art, UT Austin — Catavi (1974)",
+      "url": "https://blanton.emuseum.com/objects/14029/catavi",
+      "detalle": "Registro oficial del relieve monumental en la colección Blanton.",
+      "detalle_en": "Official record of the monumental relief in the Blanton collection."
+    },
+    {
+      "titulo": "Davis Museum, Wellesley College — Sin título (Paisaje andino, 1954)",
+      "titulo_en": "Davis Museum, Wellesley College — Untitled (Andean Landscape, 1954)",
+      "url": "https://www1.wellesley.edu/davismuseum/explore-the-collections/recent-acquisitions/node/200756",
+      "detalle": "Adquisición reciente del Davis Museum.",
+      "detalle_en": "Recent acquisition by the Davis Museum."
+    },
+    {
+      "titulo": "Artsy — María Luisa Pacheco: Sin título (1966)",
+      "titulo_en": "Artsy — María Luisa Pacheco: Untitled (1966)",
+      "url": "https://www.artsy.net/artwork/maria-luisa-pacheco-untitled",
+      "detalle": "Ficha de obra y datos de procedencia.",
+      "detalle_en": "Artwork file and provenance records."
+    },
+    {
+      "titulo": "The Art History Project — Galería de obras de María Luisa Pacheco",
+      "titulo_en": "The Art History Project — María Luisa Pacheco Artwork Gallery",
+      "url": "https://www.arthistoryproject.com/artists/maria-luisa-pacheco/",
+      "detalle": "Registros de Sin título (1955), Wila, Mallasa, Sin título (1973, 1975) y Montañas.",
+      "detalle_en": "Records for Untitled (1955), Wila, Mallasa, Untitled (1973, 1975), and Mountains."
+    },
+    {
+      "titulo": "Artnet — Registro histórico de subastas",
+      "titulo_en": "Artnet — Historical Auction Results",
+      "url": "https://www.artnet.com/artists/mar%C3%ADa-luisa-pacheco/past-auction-results",
+      "detalle": "Historial de ventas y cotización internacional de su obra.",
+      "detalle_en": "Sales records and international market appreciation."
+    }
+  ]
+}

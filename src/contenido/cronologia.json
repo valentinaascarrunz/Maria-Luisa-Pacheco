@@ -1,0 +1,463 @@
+[
+  {
+    "id": "periodo-1919-1935",
+    "rango": "1919–1935",
+    "rango_en": "1919–1935",
+    "titulo": "Infancia y primeros trazos en La Paz",
+    "titulo_en": "Childhood and Early Drawings in La Paz",
+    "texto": "María Luisa Mariaca Dietrich nació el 22 de septiembre de 1919 en La Paz [VERIFICAR: el Smithsonian indica 1918]. Era hija del arquitecto y urbanista modernista Julio Mariaca Pando [VERIFICAR: fechas del padre, 1890–1936] y de [PENDIENTE: nombre de la madre]. Aprendió sus primeras herramientas de dibujo en el estudio de su padre.",
+    "texto_en": "María Luisa Mariaca Dietrich was born on September 22, 1919 in La Paz [VERIFICAR: the Smithsonian indicates 1918]. She was the daughter of modernist architect and urbanist Julio Mariaca Pando [VERIFICAR: father's dates, 1890–1936] and [PENDIENTE: mother's name]. She learned her first drawing tools in her father's studio.",
+    "hitos": [
+      {
+        "anio": "1919",
+        "texto": "Nace el 22 de septiembre en La Paz [VERIFICAR: 1918 según el Smithsonian]",
+        "texto_en": "Born on September 22 in La Paz [VERIFICAR: 1918 according to the Smithsonian]"
+      }
+    ],
+    "fotos": [
+      {
+        "id": "foto-1919-estudio-padre",
+        "imagen": "/imagenes/cronologia/lapaz-estudio-1925.jpg",
+        "descripcion": "Estudio de arquitectura de Julio Mariaca Pando en La Paz, donde María Luisa aprendió sus primeras herramientas de dibujo.",
+        "descripcion_en": "Julio Mariaca Pando's architecture studio in La Paz, where María Luisa learned her first drawing tools.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "c. 1925",
+        "credito": "[PENDIENTE: archivo familiar]",
+        "credito_en": "[PENDIENTE: family archive]"
+      },
+      {
+        "id": "foto-1919-lapaz-panoramica",
+        "imagen": "/imagenes/cronologia/lapaz-panoramica-1930.jpg",
+        "descripcion": "La Paz en la década de 1930, con la cordillera del Illimani al fondo.",
+        "descripcion_en": "La Paz in the 1930s, with Mount Illimani in the background.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "c. 1930",
+        "credito": "[PENDIENTE: fotógrafo desconocido]",
+        "credito_en": "[PENDIENTE: unknown photographer]"
+      },
+      {
+        "id": "foto-1919-primeros-dibujos",
+        "imagen": "/imagenes/cronologia/primeros-dibujos-1934.jpg",
+        "descripcion": "Bocetos de juventud y estudios de perspectiva geométrica.",
+        "descripcion_en": "Youth sketches and studies in geometric perspective.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "c. 1934",
+        "credito": "[PENDIENTE: Archivo María Luisa Pacheco]",
+        "credito_en": "[PENDIENTE: María Luisa Pacheco Archive]"
+      }
+    ]
+  },
+  {
+    "id": "periodo-1936-1950",
+    "rango": "1936–1950",
+    "rango_en": "1936–1950",
+    "titulo": "Academia de Bellas Artes, ilustración y escultura",
+    "titulo_en": "Fine Arts Academy, Illustration, and Sculpture",
+    "texto": "En 1936 ingresó a la Academia Nacional de Bellas Artes Hernando Siles, donde estudió con los maestros indigenistas Cecilio Guzmán de Rojas y Jorge de la Reza, y donde más tarde fue profesora. A mediados de los años cuarenta también hizo escultura. Desde 1946 trabajó en el diario La Razón como retratista e ilustradora, llegando a dirigir su sección artística y literaria. En 1948 ilustró el libro monumental La Paz en su IV Centenario 1548–1948. En esta época se casó con [PENDIENTE: nombre del esposo] y tomó el apellido Pacheco. [PENDIENTE: año del matrimonio, nombres de los hijos]. [PENDIENTE: hitos familiares — matrimonio, nacimiento de los hijos, ciudadanía].",
+    "texto_en": "In 1936 she enrolled in the Academia Nacional de Bellas Artes Hernando Siles, studying under indigenist masters Cecilio Guzmán de Rojas and Jorge de la Reza, and where she later became a professor. In the mid-1940s she also created sculpture. From 1946 she worked at the newspaper La Razón as portraitist and illustrator, ultimately directing its arts and literary section. In 1948 she illustrated the landmark volume La Paz en su IV Centenario 1548–1948. During this time she married [PENDIENTE: husband's name] and adopted the surname Pacheco. [PENDIENTE: marriage year, children's names]. [PENDIENTE: family milestones — marriage, birth of children, citizenship].",
+    "hitos": [
+      {
+        "anio": "1936",
+        "texto": "Ingresa a la Academia Nacional de Bellas Artes Hernando Siles",
+        "texto_en": "Enrolls at the Academia Nacional de Bellas Artes Hernando Siles"
+      },
+      {
+        "anio": "1946",
+        "texto": "Ilustradora y retratista en el diario La Razón",
+        "texto_en": "Illustrator and portraitist at the daily La Razón"
+      },
+      {
+        "anio": "1948",
+        "texto": "Ilustra La Paz en su IV Centenario 1548–1948",
+        "texto_en": "Illustrates La Paz en su IV Centenario 1548–1948"
+      }
+    ],
+    "fotos": [
+      {
+        "id": "foto-1936-academia-siles",
+        "imagen": "/imagenes/cronologia/academia-hernando-siles-1940.jpg",
+        "descripcion": "Academia Nacional de Bellas Artes Hernando Siles, La Paz.",
+        "descripcion_en": "Academia Nacional de Bellas Artes Hernando Siles, La Paz.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "c. 1940",
+        "credito": "[PENDIENTE]",
+        "credito_en": "[PENDIENTE]"
+      },
+      {
+        "id": "foto-1946-la-razon",
+        "imagen": "/imagenes/cronologia/la-razon-ilustracion-1947.jpg",
+        "descripcion": "Página del suplemento dominical de La Razón con ilustración de María Luisa Pacheco.",
+        "descripcion_en": "Page from the Sunday supplement of La Razón with an illustration by María Luisa Pacheco.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "1947",
+        "credito": "Diario La Razón / [PENDIENTE]",
+        "credito_en": "Diario La Razón / [PENDIENTE]"
+      },
+      {
+        "id": "foto-1948-iv-centenario",
+        "imagen": "/imagenes/cronologia/iv-centenario-libro-1948.jpg",
+        "descripcion": "Libro conmemorativo 'La Paz en su IV Centenario 1548–1948', ilustrado por la artista.",
+        "descripcion_en": "Commemorative book 'La Paz en su IV Centenario 1548–1948', illustrated by the artist.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "1948",
+        "credito": "Comité del IV Centenario de La Paz",
+        "credito_en": "IV Centenary Committee of La Paz"
+      },
+      {
+        "id": "foto-1945-escultura",
+        "imagen": "/imagenes/cronologia/escultura-estudio-1945.jpg",
+        "descripcion": "Estudio escultórico de mediados de los años cuarenta (obra en paradero desconocido).",
+        "descripcion_en": "Sculptural study from the mid-1940s (work currently unlocated).",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "c. 1945",
+        "credito": "[PENDIENTE: archivo familiar]",
+        "credito_en": "[PENDIENTE: family archive]"
+      }
+    ]
+  },
+  {
+    "id": "periodo-1951-1955",
+    "rango": "1951–1955",
+    "rango_en": "1951–1955",
+    "titulo": "Madrid, cubismo y Los Ocho Contemporáneos",
+    "titulo_en": "Madrid, Cubism, and Los Ocho Contemporáneos",
+    "texto": "En 1951 realizó su primera exposición individual en el Salón Municipal de La Paz [VERIFICAR]. Ese año viajó a Madrid con una beca del gobierno español para estudiar en la Real Academia de Bellas Artes de San Fernando y en el taller de Daniel Vázquez Díaz, donde profundizó en la obra de Picasso, Braque y Juan Gris. Al regresar a La Paz en 1952, cofundó el grupo Los Ocho Contemporáneos (Generación del 52). En 1953 el grupo organizó la primera exposición de pintura abstracta en Bolivia en el Salón Municipal de La Paz, y Pacheco obtuvo el primer premio del Salón Pedro Domingo Murillo [VERIFICAR: con la obra Siembra]. En 1954 participó en la II Bienal Hispanoamericana de Arte en La Habana [VERIFICAR]. Su pintura unió la fragmentación cubista con temas andinos, quechuas y aymaras.",
+    "texto_en": "In 1951 she presented her first solo exhibition at the Salón Municipal of La Paz [VERIFICAR]. That year she traveled to Madrid on a Spanish government fellowship to study at the Real Academia de Bellas Artes de San Fernando and in the workshop of Daniel Vázquez Díaz, immersing herself in the work of Picasso, Braque, and Juan Gris. Returning to La Paz in 1952, she co-founded the group Los Ocho Contemporáneos (Generation of '52). In 1953 the group staged the first exhibition of abstract art in Bolivia at the Salón Municipal in La Paz, and Pacheco won First Prize at the Salón Pedro Domingo Murillo [VERIFICAR: with the work Siembra]. In 1954 she took part in the II Bienal Hispanoamericana de Arte in Havana [VERIFICAR]. Her painting brought together Cubist fragmentation and Andean, Quechua, and Aymara motifs.",
+    "hitos": [
+      {
+        "anio": "1951",
+        "texto": "Primera exposición individual en el Salón Municipal de La Paz [VERIFICAR]. Viaja a Madrid becada",
+        "texto_en": "First solo exhibition at Salón Municipal of La Paz [VERIFICAR]. Travels to Madrid on fellowship"
+      },
+      {
+        "anio": "1952",
+        "texto": "Regresa a La Paz y cofunda Los Ocho Contemporáneos",
+        "texto_en": "Returns to La Paz and co-founds Los Ocho Contemporáneos"
+      },
+      {
+        "anio": "1953",
+        "texto": "Primera exposición de arte abstracto en Bolivia. Primer premio del Salón Pedro Domingo Murillo",
+        "texto_en": "First exhibition of abstract art in Bolivia. First prize at Salón Pedro Domingo Murillo"
+      },
+      {
+        "anio": "1954",
+        "texto": "II Bienal Hispanoamericana de Arte, La Habana [VERIFICAR]",
+        "texto_en": "II Bienal Hispanoamericana de Arte, Havana [VERIFICAR]"
+      }
+    ],
+    "fotos": [
+      {
+        "id": "foto-1951-madrid-sanfernando",
+        "imagen": "/imagenes/cronologia/madrid-san-fernando-1951.jpg",
+        "descripcion": "Real Academia de Bellas Artes de San Fernando, Madrid, donde Pacheco cursó estudios becada por el gobierno español.",
+        "descripcion_en": "Real Academia de Bellas Artes de San Fernando, Madrid, where Pacheco studied on a fellowship from the Spanish government.",
+        "lugar": "Madrid, España",
+        "lugar_en": "Madrid, Spain",
+        "fecha": "1951",
+        "credito": "[PENDIENTE]",
+        "credito_en": "[PENDIENTE]"
+      },
+      {
+        "id": "foto-1952-ocho-contemporaneos",
+        "imagen": "/imagenes/cronologia/ocho-contemporaneos-1952.jpg",
+        "descripcion": "Integrantes de Los Ocho Contemporáneos (Generación del 52) en La Paz.",
+        "descripcion_en": "Members of Los Ocho Contemporáneos (Generation of '52) in La Paz.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "c. 1952",
+        "credito": "[PENDIENTE: archivo histórico]",
+        "credito_en": "[PENDIENTE: historical archive]"
+      },
+      {
+        "id": "foto-1953-salon-murillo",
+        "imagen": "/imagenes/cronologia/salon-murillo-1953.jpg",
+        "descripcion": "Catálogo del Salón Pedro Domingo Murillo de 1953, donde Pacheco obtuvo el Primer Premio.",
+        "descripcion_en": "Catalog of the Salón Pedro Domingo Murillo of 1953, where Pacheco won First Prize.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "1953",
+        "credito": "[PENDIENTE]",
+        "credito_en": "[PENDIENTE]"
+      },
+      {
+        "id": "foto-1954-paisaje-andino",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/2020-29_sb_2021-11-089957.jpg",
+        "descripcion": "Sin título (Paisaje andino), 1954, emblemática obra de su etapa de cubismo andino.",
+        "descripcion_en": "Untitled (Andean Landscape), 1954, signature work of her Andean Cubist period.",
+        "lugar": "Davis Museum, Wellesley College",
+        "lugar_en": "Davis Museum, Wellesley College",
+        "fecha": "1954",
+        "credito": "Davis Museum / Wellesley College",
+        "credito_en": "Davis Museum / Wellesley College"
+      }
+    ]
+  },
+  {
+    "id": "periodo-1956-1969",
+    "rango": "1956–1969",
+    "rango_en": "1956–1969",
+    "titulo": "Nueva York, Guggenheim y proyección internacional",
+    "titulo_en": "New York, Guggenheim, and International Acclaim",
+    "texto": "En 1956 se mudó a Nueva York, a los 37 años [VERIFICAR: llegó como madre joven con dos hijos; una fuente indica que se separó ese año]. Al principio trabajó como ilustradora para la revista LIFE y como diseñadora textil [VERIFICAR: en New Line Designers Studio]. En 1957 expuso en la Unión Panamericana en Washington. Recibió tres becas Guggenheim consecutivas (1958, 1959 y 1960) y el premio de pintura de la Bienal de São Paulo de 1959. Participó en hitos como South American Art Today en el Dallas Museum of Art (1959), Latin America: New Departures en Boston (1960) y Magnet: New York en la Galería Bonino (1964). En Nueva York su pintura se volvió plenamente abstracta, incorporando el lenguaje del expresionismo abstracto y el informalismo con un uso cada vez más audaz de la espátula y la madera balsa.",
+    "texto_en": "In 1956 she moved to New York at age 37 [VERIFICAR: arrived as a young mother with two children; one source states she separated that year]. Initially she worked as an illustrator for LIFE magazine and as a textile designer [VERIFICAR: at New Line Designers Studio]. In 1957 she exhibited at the Pan American Union in Washington. She was awarded three consecutive Guggenheim Fellowships (1958, 1959, and 1960) and the Painting Prize at the São Paulo Biennial in 1959. She took part in landmark exhibitions including South American Art Today at the Dallas Museum of Art (1959), Latin America: New Departures in Boston (1960), and Magnet: New York at Galería Bonino (1964). In New York her painting transitioned into full abstraction, engaging with Abstract Expressionism and European Informalisme through bold spatula work and balsa wood reliefs.",
+    "hitos": [
+      {
+        "anio": "1956",
+        "texto": "Se instala en Nueva York. Ilustradora para LIFE y diseñadora textil",
+        "texto_en": "Relocates to New York. Illustrator for LIFE and textile designer"
+      },
+      {
+        "anio": "1957",
+        "texto": "Exposición en la Unión Panamericana, Washington",
+        "texto_en": "Exhibition at the Pan American Union, Washington"
+      },
+      {
+        "anio": "1958–1960",
+        "texto": "Tres becas Guggenheim consecutivas",
+        "texto_en": "Three consecutive Guggenheim Fellowships"
+      },
+      {
+        "anio": "1959",
+        "texto": "Premio de pintura, Bienal de São Paulo. South American Art Today, Dallas Museum of Art",
+        "texto_en": "Painting Prize, São Paulo Biennial. South American Art Today, Dallas Museum of Art"
+      },
+      {
+        "anio": "1960",
+        "texto": "Latin America: New Departures, Institute of Contemporary Art, Boston",
+        "texto_en": "Latin America: New Departures, Institute of Contemporary Art, Boston"
+      },
+      {
+        "anio": "1964",
+        "texto": "Magnet: New York, Galería Bonino, Nueva York",
+        "texto_en": "Magnet: New York, Galería Bonino, New York"
+      }
+    ],
+    "fotos": [
+      {
+        "id": "foto-1960-estudio-smithsonian",
+        "imagen": "/imagenes/cronologia/estudio-ny-1960.jpg",
+        "descripcion": "María Luisa Pacheco pintando en su estudio, c. 1960.",
+        "descripcion_en": "María Luisa Pacheco painting in her studio, c. 1960.",
+        "lugar": "Nueva York, Estados Unidos",
+        "lugar_en": "New York, United States",
+        "fecha": "c. 1960",
+        "credito": "Archives of American Art, Smithsonian Institution",
+        "credito_en": "Archives of American Art, Smithsonian Institution"
+      },
+      {
+        "id": "foto-1959-sao-paulo",
+        "imagen": "/imagenes/cronologia/sao-paulo-bienal-1959.jpg",
+        "descripcion": "V Bienal de São Paulo, 1959, donde María Luisa Pacheco fue laureada con el premio de pintura.",
+        "descripcion_en": "V São Paulo Biennial, 1959, where María Luisa Pacheco was awarded the painting prize.",
+        "lugar": "São Paulo, Brasil",
+        "lugar_en": "São Paulo, Brazil",
+        "fecha": "1959",
+        "credito": "[PENDIENTE]",
+        "credito_en": "[PENDIENTE]"
+      },
+      {
+        "id": "foto-1960-composicion",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/unnamed.jpg",
+        "descripcion": "Composición (1960), óleo sobre tela conservado en el Art Museum of the Americas.",
+        "descripcion_en": "Composición (1960), oil on canvas held in the Art Museum of the Americas.",
+        "lugar": "Washington, D.C.",
+        "lugar_en": "Washington, D.C.",
+        "fecha": "1960",
+        "credito": "Art Museum of the Americas (OAS)",
+        "credito_en": "Art Museum of the Americas (OAS)"
+      },
+      {
+        "id": "foto-1964-bonino",
+        "imagen": "/imagenes/cronologia/galeria-bonino-1964.jpg",
+        "descripcion": "Exposición colectiva 'Magnet: New York', Galería Bonino, Nueva York.",
+        "descripcion_en": "Group exhibition 'Magnet: New York', Galería Bonino, New York.",
+        "lugar": "Nueva York, Estados Unidos",
+        "lugar_en": "New York, United States",
+        "fecha": "1964",
+        "credito": "[PENDIENTE]",
+        "credito_en": "[PENDIENTE]"
+      }
+    ]
+  },
+  {
+    "id": "periodo-1970-1982",
+    "rango": "1970–1982",
+    "rango_en": "1970–1982",
+    "titulo": "Plenitud matérica, Bienales INBO y despedida",
+    "titulo_en": "Material Fullness, INBO Biennials, and Farewell",
+    "texto": "Durante la década de 1970 su lenguaje matérico alcanzó la cúspide: arena, papel, contrachapado, cartón y óleo espeso aplicado con espátula dialogan con la geología andina. Fue representada por la galería Lee Ault & Company [VERIFICAR: la galería abrió en 1971 a raíz de su obra], donde expuso en 1971 [VERIFICAR]. Nunca cortó sus lazos con Bolivia: ejerció como directora artística de las Bienales INBO de La Paz [VERIFICAR: 1975, 1977 y 1981] y en 1976 dio una conferencia sobre arte abstracto en el Museo Nacional de Arte. En 1974 concluyó la monumental obra Catavi. Murió en Nueva York en abril de 1982 [VERIFICAR: día 21 o 23], a los 62 años. Ese mismo año su hija, María Eugenia Ascarrunz, donó sus papeles al Archives of American Art del Smithsonian.",
+    "texto_en": "Throughout the 1970s her material language reached its peak: sand, paper, plywood, cardboard, and thick impasto applied with palette knife dialogue with Andean geology. She was represented by Lee Ault & Company [VERIFICAR: the gallery opened in 1971 inspired by her work], where she exhibited in 1971 [VERIFICAR]. She never severed ties with Bolivia: she served as artistic director of the INBO Biennials in La Paz [VERIFICAR: 1975, 1977, and 1981] and gave a lecture on abstract art at the Museo Nacional de Arte in 1976. In 1974 she completed the monumental work Catavi. She died in New York in April 1982 [VERIFICAR: April 21 or 23], at age 62. That same year her daughter, María Eugenia Ascarrunz, donated her papers to the Smithsonian Archives of American Art.",
+    "hitos": [
+      {
+        "anio": "1971",
+        "texto": "Exposición con Lee Ault & Company, Nueva York [VERIFICAR]",
+        "texto_en": "Exhibition with Lee Ault & Company, New York [VERIFICAR]"
+      },
+      {
+        "anio": "1975, 1977, 1981",
+        "texto": "Directora artística de las Bienales INBO, La Paz [VERIFICAR]",
+        "texto_en": "Artistic Director of the INBO Biennials, La Paz [VERIFICAR]"
+      },
+      {
+        "anio": "1976",
+        "texto": "Conferencia sobre arte abstracto en el Museo Nacional de Arte, La Paz",
+        "texto_en": "Lecture on abstract art at the Museo Nacional de Arte, La Paz"
+      },
+      {
+        "anio": "1982",
+        "texto": "Muere en Nueva York en abril [VERIFICAR: día 21 o 23]. Su hija dona sus papeles al Smithsonian",
+        "texto_en": "Dies in New York in April [VERIFICAR: April 21 or 23]. Her daughter donates her papers to the Smithsonian"
+      }
+    ],
+    "fotos": [
+      {
+        "id": "foto-1971-lee-ault",
+        "imagen": "/imagenes/cronologia/lee-ault-galeria-1971.jpg",
+        "descripcion": "Catálogo de la exposición de María Luisa Pacheco en Lee Ault & Company, Nueva York.",
+        "descripcion_en": "Catalog for María Luisa Pacheco's solo exhibition at Lee Ault & Company, New York.",
+        "lugar": "Nueva York, Estados Unidos",
+        "lugar_en": "New York, United States",
+        "fecha": "1971",
+        "credito": "Lee Ault & Company / [PENDIENTE]",
+        "credito_en": "Lee Ault & Company / [PENDIENTE]"
+      },
+      {
+        "id": "foto-1974-catavi-detalle",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/catavi-1974.jpeg",
+        "descripcion": "Catavi (1974), relieve monumental de óleo y madera sobre tela (147 × 336 cm).",
+        "descripcion_en": "Catavi (1974), monumental relief of oil and wood on canvas (147 × 336 cm).",
+        "lugar": "Blanton Museum of Art, Austin",
+        "lugar_en": "Blanton Museum of Art, Austin",
+        "fecha": "1974",
+        "credito": "Blanton Museum of Art",
+        "credito_en": "Blanton Museum of Art"
+      },
+      {
+        "id": "foto-1976-conferencia-lapaz",
+        "imagen": "/imagenes/cronologia/conferencia-mna-1976.jpg",
+        "descripcion": "Museo Nacional de Arte de La Paz, sede de su conferencia sobre abstracción en 1976.",
+        "descripcion_en": "Museo Nacional de Arte in La Paz, venue of her 1976 lecture on abstraction.",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "1976",
+        "credito": "[PENDIENTE]",
+        "credito_en": "[PENDIENTE]"
+      },
+      {
+        "id": "foto-1982-smithsonian-donacion",
+        "imagen": "/imagenes/cronologia/smithsonian-documentos-1982.jpg",
+        "descripcion": "Cajas y documentos del fondo 'María Luisa Pacheco papers' en el Smithsonian.",
+        "descripcion_en": "Boxes and documentation from the 'María Luisa Pacheco papers' at the Smithsonian.",
+        "lugar": "Washington, D.C.",
+        "lugar_en": "Washington, D.C.",
+        "fecha": "1982",
+        "credito": "Archives of American Art, Smithsonian Institution",
+        "credito_en": "Archives of American Art, Smithsonian Institution"
+      }
+    ]
+  },
+  {
+    "id": "periodo-legado",
+    "rango": "Legado (1982–hoy)",
+    "rango_en": "Legacy (1982–present)",
+    "titulo": "Consagración crítica, retrospectivas y vigencia",
+    "titulo_en": "Critical Acclaim, Retrospectives, and Enduring Influence",
+    "texto": "María Luisa Pacheco es reconocida como la artista que introdujo la abstracción en Bolivia y como una voz singular del expresionismo abstracto internacional: una pintora que llevó la escala, la fuerza y la materia de la cordillera andina al lenguaje de la vanguardia neoyorquina.",
+    "texto_en": "María Luisa Pacheco is recognized as the artist who introduced abstraction to Bolivia and as a singular voice of international abstract expressionism: a painter who brought the scale, force, and materiality of the Andean cordillera into the language of the New York avant-garde.",
+    "hitos": [
+      {
+        "anio": "1986",
+        "texto": "Tribute to María Luisa Pacheco of Bolivia, retrospectiva en el Museum of Modern Art of Latin America (OEA), Washington",
+        "texto_en": "Tribute to María Luisa Pacheco of Bolivia, retrospective at the Museum of Modern Art of Latin America (OAS), Washington"
+      },
+      {
+        "anio": "1991",
+        "texto": "María Luisa Pacheco: Pintora de los Andes, Museo Nacional de Arte, La Paz",
+        "texto_en": "María Luisa Pacheco: Pintora de los Andes, Museo Nacional de Arte, La Paz"
+      },
+      {
+        "anio": "1999",
+        "texto": "Retrospectiva en SIART 99, La Paz",
+        "texto_en": "Retrospective at SIART 99, La Paz"
+      },
+      {
+        "anio": "2010",
+        "texto": "Libro María Luisa Pacheco, ed. Cecilia Bayá Botti (Editorial Oxígeno)",
+        "texto_en": "Book María Luisa Pacheco, ed. Cecilia Bayá Botti (Editorial Oxígeno)"
+      },
+      {
+        "anio": "2019",
+        "texto": "Centenario de su nacimiento",
+        "texto_en": "Centenary of her birth"
+      },
+      {
+        "anio": "2020–2021",
+        "texto": "Expanding Abstraction, Blanton Museum of Art, Austin",
+        "texto_en": "Expanding Abstraction, Blanton Museum of Art, Austin"
+      },
+      {
+        "anio": "2023",
+        "texto": "Monumental, Casa Melchor Pinto, Santa Cruz (curadora: Cecilia Bayá Botti). Geografías de la abstracción: La Paz, Madrid, Nueva York, Art Museum of the Americas, Washington (curadoras: Olga U. Herrera y Adriana Ospina). Glaciares, Museo Nacional de Arte, La Paz",
+        "texto_en": "Monumental, Casa Melchor Pinto, Santa Cruz (curator: Cecilia Bayá Botti). Geografías de la abstracción: La Paz, Madrid, Nueva York, Art Museum of the Americas, Washington (curators: Olga U. Herrera and Adriana Ospina). Glaciares, Museo Nacional de Arte, La Paz"
+      },
+      {
+        "anio": "2024",
+        "texto": "Récord en subasta: Kinesis (1975), Christie's",
+        "texto_en": "Auction record: Kinesis (1975), Christie's"
+      }
+    ],
+    "fotos": [
+      {
+        "id": "foto-1986-tribute-oea",
+        "imagen": "/imagenes/cronologia/tribute-pacheco-oea-1986.jpg",
+        "descripcion": "Catálogo de la exposición 'Tribute to María Luisa Pacheco of Bolivia', Washington, 1986.",
+        "descripcion_en": "Catalog for the exhibition 'Tribute to María Luisa Pacheco of Bolivia', Washington, 1986.",
+        "lugar": "Washington, D.C.",
+        "lugar_en": "Washington, D.C.",
+        "fecha": "1986",
+        "credito": "Organization of American States (OAS)",
+        "credito_en": "Organization of American States (OAS)"
+      },
+      {
+        "id": "foto-2010-libro-monografia",
+        "imagen": "/imagenes/cronologia/libro-baya-botti-2010.jpg",
+        "descripcion": "Monografía 'María Luisa Pacheco', editada por Cecilia Bayá Botti (Editorial Oxígeno, 2010).",
+        "descripcion_en": "Monograph 'María Luisa Pacheco', edited by Cecilia Bayá Botti (Editorial Oxígeno, 2010).",
+        "lugar": "La Paz, Bolivia",
+        "lugar_en": "La Paz, Bolivia",
+        "fecha": "2010",
+        "credito": "Editorial Oxígeno / Colección Cecilia Bayá Botti",
+        "credito_en": "Editorial Oxígeno / Cecilia Bayá Botti Collection"
+      },
+      {
+        "id": "foto-2023-ama-exposicion",
+        "imagen": "/imagenes/cronologia/geografias-abstraccion-2023.jpg",
+        "descripcion": "Exposición 'Geografías de la abstracción: La Paz, Madrid, Nueva York', Art Museum of the Americas, Washington, 2023.",
+        "descripcion_en": "Exhibition 'Geografías de la abstracción: La Paz, Madrid, Nueva York', Art Museum of the Americas, Washington, 2023.",
+        "lugar": "Washington, D.C.",
+        "lugar_en": "Washington, D.C.",
+        "fecha": "2023",
+        "credito": "AMA / Curadoras: Olga U. Herrera y Adriana Ospina",
+        "credito_en": "AMA / Curators: Olga U. Herrera and Adriana Ospina"
+      },
+      {
+        "id": "foto-2024-christies-kinesis",
+        "imagen": "/imagenes/cronologia/christies-kinesis-2024.jpg",
+        "descripcion": "Kinesis (1975), óleo y arena sobre tela, récord en subasta en Christie's.",
+        "descripcion_en": "Kinesis (1975), oil and sand on canvas, auction record at Christie's.",
+        "lugar": "Nueva York, Estados Unidos",
+        "lugar_en": "New York, United States",
+        "fecha": "2024",
+        "credito": "Christie's Images Ltd.",
+        "credito_en": "Christie's Images Ltd."
+      }
+    ]
+  }
+]

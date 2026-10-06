@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ama-oea",
+    "nombre": "Art Museum of the Americas (OEA)",
+    "nombre_en": "Art Museum of the Americas (OAS)",
+    "ciudad": "Washington, D.C.",
+    "pais": "Estados Unidos",
+    "pais_en": "United States",
+    "obras_destacadas": ["Composición (1960)", "Sin título (Madrid, La Paz, Nueva York)", "Sin título (Santa Cruz)"],
+    "obras_destacadas_en": ["Composition (1960)", "Untitled (Madrid, La Paz, New York)", "Untitled (Santa Cruz)"],
+    "coordenadas": {
+      "lat": 38.8921,
+      "lng": -77.0402
+    },
+    "descripcion": "El museo de la Organización de los Estados Americanos alberga piezas fundamentales de su etapa neoyorquina temprana y retrospectivas históricas.",
+    "descripcion_en": "The museum of the Organization of American States holds pivotal works from her early New York period and historical retrospectives.",
+    "marcador": null
+  },
+  {
+    "id": "guggenheim-ny",
+    "nombre": "Solomon R. Guggenheim Museum",
+    "nombre_en": "Solomon R. Guggenheim Museum",
+    "ciudad": "Nueva York",
+    "pais": "Estados Unidos",
+    "pais_en": "United States",
+    "obras_destacadas": ["Anamorfosis (1971)"],
+    "obras_destacadas_en": ["Anamorphosis (1971)"],
+    "coordenadas": {
+      "lat": 40.7829,
+      "lng": -73.9589
+    },
+    "descripcion": "Una de las instituciones señeras de la vanguardia mundial en la que Pacheco fue becaria en tres ocasiones consecutivas (1958, 1959, 1960).",
+    "descripcion_en": "One of the world's leading vanguard institutions where Pacheco received three consecutive fellowships (1958, 1959, 1960).",
+    "marcador": null
+  },
+  {
+    "id": "blanton-austin",
+    "nombre": "Blanton Museum of Art, University of Texas",
+    "nombre_en": "Blanton Museum of Art, University of Texas",
+    "ciudad": "Austin, Texas",
+    "pais": "Estados Unidos",
+    "pais_en": "United States",
+    "obras_destacadas": ["Catavi (1974)", "Sin título (1966)"],
+    "obras_destacadas_en": ["Catavi (1974)", "Untitled (1966)"],
+    "coordenadas": {
+      "lat": 30.2808,
+      "lng": -97.7377
+    },
+    "descripcion": "Custodia una de las mayores colecciones de arte latinoamericano de los Estados Unidos, incluyendo su tríptico monumental Catavi.",
+    "descripcion_en": "Houses one of the foremost Latin American art collections in the United States, including her monumental triptych Catavi.",
+    "marcador": null
+  },
+  {
+    "id": "davis-wellesley",
+    "nombre": "Davis Museum, Wellesley College",
+    "nombre_en": "Davis Museum, Wellesley College",
+    "ciudad": "Wellesley, Massachusetts",
+    "pais": "Estados Unidos",
+    "pais_en": "United States",
+    "obras_destacadas": ["Sin título (Paisaje andino) (1954)"],
+    "obras_destacadas_en": ["Untitled (Andean Landscape) (1954)"],
+    "coordenadas": {
+      "lat": 42.2936,
+      "lng": -71.3059
+    },
+    "descripcion": "Conserva obras fundamentales de su transición desde el cubismo andino hacia la síntesis geométrica.",
+    "descripcion_en": "Preserves foundational works marking her transition from Andean Cubism to geometric synthesis.",
+    "marcador": null
+  },
+  {
+    "id": "bid-washington",
+    "nombre": "Banco Interamericano de Desarrollo",
+    "nombre_en": "Inter-American Development Bank",
+    "ciudad": "Washington, D.C.",
+    "pais": "Estados Unidos",
+    "pais_en": "United States",
+    "obras_destacadas": ["Sin título (1970)"],
+    "obras_destacadas_en": ["Untitled (1970)"],
+    "coordenadas": {
+      "lat": 38.8997,
+      "lng": -77.0321
+    },
+    "descripcion": "Colección institucional representativa del arte moderno de las Américas.",
+    "descripcion_en": "Institutional art collection representative of modern art throughout the Americas.",
+    "marcador": null
+  },
+  {
+    "id": "banco-republica-bogota",
+    "nombre": "Colección de Arte del Banco de la República",
+    "nombre_en": "Banco de la República Art Collection",
+    "ciudad": "Bogotá",
+    "pais": "Colombia",
+    "pais_en": "Colombia",
+    "obras_destacadas": ["Obras de referencia en la colección latinoamericana"],
+    "obras_destacadas_en": ["Reference works in the Latin American collection"],
+    "coordenadas": {
+      "lat": 4.5971,
+      "lng": -74.0734
+    },
+    "descripcion": "Colección pública de arte de referencia continental en Bogotá.",
+    "descripcion_en": "Major public art collection of continental renown in Bogotá.",
+    "marcador": null
+  },
+  {
+    "id": "mssa-santiago",
+    "nombre": "Museo de la Solidaridad Salvador Allende",
+    "nombre_en": "Museo de la Solidaridad Salvador Allende",
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "pais_en": "Chile",
+    "obras_destacadas": ["Dinamo (1970)"],
+    "obras_destacadas_en": ["Dinamo (1970)"],
+    "coordenadas": {
+      "lat": -33.4489,
+      "lng": -70.6693
+    },
+    "descripcion": "Obra donada en el contexto de la solidaridad internacional de artistas con la cultura latinoamericana.",
+    "descripcion_en": "Artwork donated within the framework of international artist solidarity with Latin American culture.",
+    "marcador": null
+  },
+  {
+    "id": "mna-lapaz",
+    "nombre": "Museo Nacional de Arte",
+    "nombre_en": "Museo Nacional de Arte",
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "pais_en": "Bolivia",
+    "obras_destacadas": ["[VERIFICAR: si su obra está en la colección permanente]"],
+    "obras_destacadas_en": ["[VERIFICAR: if her work is in the permanent collection]"],
+    "coordenadas": {
+      "lat": -16.4957,
+      "lng": -68.1336
+    },
+    "descripcion": "Principal pinacoteca de Bolivia, sede histórica de conferencias y homenajes a la artista.",
+    "descripcion_en": "Bolivia's principal national museum of art, historical venue for lectures and tributes to the artist.",
+    "marcador": "[VERIFICAR: si su obra está en la colección permanente]"
+  },
+  {
+    "id": "otras-colecciones-pendiente",
+    "nombre": "[PENDIENTE: otras colecciones]",
+    "nombre_en": "[PENDIENTE: other collections]",
+    "ciudad": "[PENDIENTE]",
+    "pais": "[PENDIENTE]",
+    "pais_en": "[PENDIENTE]",
+    "obras_destacadas": ["[PENDIENTE]"],
+    "obras_destacadas_en": ["[PENDIENTE]"],
+    "coordenadas": {
+      "lat": 0,
+      "lng": 0
+    },
+    "descripcion": "Espacio reservado para nuevas incorporaciones de museos e instituciones con obra de María Luisa Pacheco.",
+    "descripcion_en": "Reserved space for additional museums and institutions holding works by María Luisa Pacheco.",
+    "marcador": "[PENDIENTE: otras colecciones]"
+  }
+]

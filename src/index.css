@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #F5F2EC;
+    --text-primary: #1E1D1B;
+    --text-secondary: #8A8580;
+    --accent-ochre: #B07A3B;
+    --line-border: rgba(138, 133, 128, 0.25);
+  }
+
+  .dark {
+    --bg-primary: #1E1D1B;
+    --text-primary: #F5F2EC;
+    --text-secondary: #A39E97;
+    --accent-ochre: #D49B55;
+    --line-border: rgba(163, 158, 151, 0.22);
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Cormorant Garamond', 'Instrument Serif', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* 1. Universal Dark Section Utility matching Fondo Documental Principal */
+.section-dark {
+  background-color: #1E1D1B !important;
+  color: #F5F2EC !important;
+  --bg-primary: #1E1D1B !important;
+  --text-primary: #F5F2EC !important;
+  --text-secondary: #C9C4BC !important;
+  --line-border: rgba(245, 242, 236, 0.15) !important;
+}
+
+/* Force all children inside .section-dark to inherit the light color by default */
+.section-dark * {
+  color: inherit;
+}
+
+/* Títulos blanco #F5F2EC */
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4,
+.section-dark h5,
+.section-dark h6,
+.section-dark [class*="text-white"],
+.section-dark [class*="text-[#F5F2EC]"] {
+  color: #F5F2EC !important;
+}
+
+/* Texto regular en gris claro #DCD7D0 */
+.section-dark p,
+.section-dark li,
+.section-dark span,
+.section-dark div,
+.section-dark blockquote {
+  color: #DCD7D0;
+}
+
+.section-dark strong,
+.section-dark b {
+  color: #F5F2EC !important;
+}
+
+/* Subtítulos, fechas, años y acentos en ocre #B07A3B */
+.section-dark .text-ochre,
+.section-dark .text-accent,
+.section-dark [class*="text-[#B07A3B]"] {
+  color: #B07A3B !important;
+}
+
+.section-dark [class*="text-[#D9A867]"],
+.section-dark [class*="text-[#D49B55]"],
+.section-dark .text-amber-400,
+.section-dark .text-amber-500 {
+  color: #D9A867 !important;
+}
+
+/* Textos secundarios en gris claro #C9C4BC / #A39E97 */
+.section-dark .text-secondary,
+.section-dark .text-muted,
+.section-dark [class*="text-[var(--text-secondary)]"],
+.section-dark [class*="text-[#8A8580]"],
+.section-dark [class*="text-[#A39E97]"],
+.section-dark [class*="text-[#C9C4BC]"],
+.section-dark [class*="text-[#DCD7D0]"],
+.section-dark [class*="text-white/40"],
+.section-dark [class*="text-white/50"],
+.section-dark [class*="text-white/60"],
+.section-dark [class*="text-white/70"] {
+  color: #C9C4BC !important;
+}
+
+/* Botón ocre: fondo #B07A3B con texto blanco */
+.section-dark button[class*="bg-[#B07A3B]"],
+.section-dark a[class*="bg-[#B07A3B]"],
+.section-dark .btn-ochre {
+  background-color: #B07A3B !important;
+  color: #FFFFFF !important;
+}
+
+.section-dark button[class*="bg-[#B07A3B]"] *,
+.section-dark a[class*="bg-[#B07A3B]"] *,
+.section-dark .btn-ochre * {
+  color: #FFFFFF !important;
+}
+
+.section-dark button[class*="bg-[#B07A3B]"]:hover,
+.section-dark a[class*="bg-[#B07A3B]"]:hover,
+.section-dark .btn-ochre:hover {
+  background-color: rgba(176, 122, 59, 0.9) !important;
+  color: #FFFFFF !important;
+}
+
+/* Yellow marker tags remain bright yellow and legible inside .section-dark */
+.section-dark .marker-tag-pendiente,
+.section-dark [class*="bg-amber-200"],
+.section-dark [class*="bg-amber-100"] {
+  background-color: #FEF08A !important;
+  color: #713F12 !important;
+  border-color: #EAB308 !important;
+}
+
+.section-dark .marker-tag-verificar {
+  background-color: #FEF9C3 !important;
+  color: #854D0E !important;
+  border-color: #CA8A04 !important;
+}
+
+/* Subtle Andean mineral texture & styling */
+.andean-grain {
+  background-image: radial-gradient(rgba(176, 122, 59, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Protected artwork against easy copy/right-click */
+.protected-artwork {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Marker tags in striking yellow */
+.marker-tag-pendiente {
+  display: inline-flex;
+  align-items: center;
+  background-color: #FEF08A; /* yellow-200 */
+  color: #713F12; /* yellow-900 */
+  border: 1px solid #EAB308; /* yellow-500 */
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0.15rem 0.45rem;
+  border-radius: 2px;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+.marker-tag-verificar {
+  display: inline-flex;
+  align-items: center;
+  background-color: #FEF9C3; /* yellow-100 */
+  color: #854D0E; /* yellow-800 */
+  border: 1px dashed #CA8A04; /* yellow-600 */
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary);
+  border-radius: 3px;
+}
+
+/* Map Halo Pulse Animation respecting prefers-reduced-motion */
+@keyframes mapHaloPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.35);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .map-halo-pulse {
+    animation: mapHaloPulse 3.5s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map-halo-pulse {
+    animation: none !important;
+    opacity: 0.45 !important;
+  }
+}
