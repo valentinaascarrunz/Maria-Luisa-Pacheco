@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from '../components/ParsedText';
-import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import type { PeriodoCronologia, FotoCronologia } from '../types';
 import cronologiaData from '../contenido/cronologia.json';
 
@@ -190,6 +189,8 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ foto, onOpen }) => {
         <img
           src={foto.imagen}
           alt={descActual}
+          data-title={descActual}
+          data-year={foto.fecha}
           loading="lazy"
           draggable={false}
           onDragStart={(e) => e.preventDefault()}
@@ -219,9 +220,6 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ foto, onOpen }) => {
             }
           }}
         />
-
-        {/* Visible watermark overlay directly on the photo */}
-        <ArtworkWatermark />
 
         {/* Desktop Hover Overlay with 300ms opacity and 8px upward shift */}
         <div className="hidden md:flex absolute inset-0 z-20 flex-col justify-end p-5 bg-black/80 section-dark opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">

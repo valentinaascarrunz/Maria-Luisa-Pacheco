@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ArtworkImage } from '../components/ArtworkImage';
-import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import { ParsedText } from '../components/ParsedText';
 import { ChevronRight, ArrowRight, Pause, Play } from 'lucide-react';
 import type { Obra } from '../types';
@@ -46,6 +45,8 @@ const StageImageCard: React.FC<StageImageCardProps> = ({ imagen, titulo, anios, 
       <img
         src={imagen}
         alt={`${titulo} — María Luisa Pacheco`}
+        data-title={titulo}
+        data-year={anios}
         loading="lazy"
         draggable={false}
         onDragStart={(e) => e.preventDefault()}
@@ -60,7 +61,6 @@ const StageImageCard: React.FC<StageImageCardProps> = ({ imagen, titulo, anios, 
           userSelect: 'none',
         }}
       />
-      <ArtworkWatermark />
     </div>
   );
 };
@@ -189,6 +189,8 @@ export const InicioSection: React.FC = () => {
           <img
             src="https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/maria-luisa-pacheco-montanas-1979-trivium-art-history.jpg"
             alt="Montañas (1979) — María Luisa Pacheco"
+            data-title="Montañas"
+            data-year="1979"
             draggable={false}
             onDragStart={(e) => e.preventDefault()}
             onContextMenu={(e) => {
@@ -201,8 +203,6 @@ export const InicioSection: React.FC = () => {
               userSelect: 'none',
             }}
           />
-          {/* Visible watermark overlay on hero artwork */}
-          <ArtworkWatermark />
           {/* Dark overlay ensuring artist name and typography are perfectly readable */}
           <div className="absolute inset-0 bg-[#1E1D1B]/75" />
         </div>

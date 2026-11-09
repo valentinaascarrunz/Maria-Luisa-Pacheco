@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from '../components/ParsedText';
-import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import type { ArchivoData } from '../types';
 import archivoDataRaw from '../contenido/archivo.json';
 import { ExternalLink, BookOpen, Archive, Image as ImageIcon, Link as LinkIcon } from 'lucide-react';
@@ -120,9 +119,6 @@ export const ArchivoSection: React.FC = () => {
                   </p>
                   <span className="text-xs font-mono text-[#C9C4BC]">{foto.fuente}</span>
                 </div>
-
-                {/* Visible watermark overlay on photo container */}
-                <ArtworkWatermark />
               </div>
 
               <div className="p-6 space-y-3">

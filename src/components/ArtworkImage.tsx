@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import type { Obra } from '../types';
 import { useSite } from '../context/SiteContext';
-import { ArtworkWatermark } from './ArtworkWatermark';
 
 interface ArtworkImageProps {
   obra: Obra;
@@ -47,33 +46,31 @@ export const ArtworkImage: React.FC<ArtworkImageProps> = ({
         userSelect: 'none',
       }}
     >
-      {/* 1. Real artwork image (normal img tag, no filters, full artwork contain) */}
+      {/* 1. Real artwork image (clean view, no visible watermark overlay) */}
       {hasImage && !imageError ? (
-        <>
-          <img
-            src={obra.imagen!}
-            alt={`${tituloActual} (${obra.anio}) — María Luisa Pacheco`}
-            loading="lazy"
-            draggable={false}
-            onDragStart={(e) => e.preventDefault()}
-            onContextMenu={(e) => {
-              e.preventDefault();
-              return false;
-            }}
-            onError={() => setImageError(true)}
-            className={`w-full h-full ${
-              objectFit === 'cover'
-                ? 'object-cover'
-                : 'object-contain p-2'
-            } select-none`}
-            style={{
-              WebkitTouchCallout: 'none',
-              userSelect: 'none',
-            }}
-          />
-          {/* Visible watermark overlay on top of the image */}
-          <ArtworkWatermark isLightbox={isLightbox} />
-        </>
+        <img
+          src={obra.imagen!}
+          alt={`${tituloActual} (${obra.anio}) — María Luisa Pacheco`}
+          data-title={tituloActual}
+          data-year={obra.anio}
+          loading="lazy"
+          draggable={false}
+          onDragStart={(e) => e.preventDefault()}
+          onContextMenu={(e) => {
+            e.preventDefault();
+            return false;
+          }}
+          onError={() => setImageError(true)}
+          className={`w-full h-full ${
+            objectFit === 'cover'
+              ? 'object-cover'
+              : 'object-contain p-2'
+          } select-none`}
+          style={{
+            WebkitTouchCallout: 'none',
+            userSelect: 'none',
+          }}
+        />
       ) : (
         /* 2. Completely neutral placeholder when there is no file */
         <div className="absolute inset-0 flex flex-col justify-between p-5 sm:p-6 bg-[#EDE8E0] dark:bg-[#252321] text-center border border-[var(--line-border)]">

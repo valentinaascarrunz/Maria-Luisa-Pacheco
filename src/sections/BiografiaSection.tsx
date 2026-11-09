@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from '../components/ParsedText';
-import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import type { BiografiaCapitulo } from '../types';
 import biografiaData from '../contenido/biografia.json';
 import { Camera } from 'lucide-react';
@@ -30,26 +29,25 @@ export const BiografiaSection: React.FC = () => {
               }}
             >
               {!photoError ? (
-                <>
-                  <img
-                    src="https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/retrato.png"
-                    alt="María Luisa Pacheco en su estudio"
-                    loading="eager"
-                    draggable={false}
-                    onDragStart={(e) => e.preventDefault()}
-                    onContextMenu={(e) => {
-                      e.preventDefault();
-                      return false;
-                    }}
-                    onError={() => setPhotoError(true)}
-                    className="w-full h-auto object-contain select-none"
-                    style={{
-                      WebkitTouchCallout: 'none',
-                      userSelect: 'none',
-                    }}
-                  />
-                  <ArtworkWatermark />
-                </>
+                <img
+                  src="https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/retrato.png"
+                  alt="María Luisa Pacheco en su estudio"
+                  data-title="María Luisa Pacheco en su estudio"
+                  data-year="1960"
+                  loading="eager"
+                  draggable={false}
+                  onDragStart={(e) => e.preventDefault()}
+                  onContextMenu={(e) => {
+                    e.preventDefault();
+                    return false;
+                  }}
+                  onError={() => setPhotoError(true)}
+                  className="w-full h-auto object-contain select-none"
+                  style={{
+                    WebkitTouchCallout: 'none',
+                    userSelect: 'none',
+                  }}
+                />
               ) : (
                 <div className="w-full aspect-3/4 flex flex-col items-center justify-center p-6 bg-[#EDE8E0] dark:bg-[#252321] text-center space-y-2">
                   <span className="font-serif text-lg text-[var(--text-primary)]">María Luisa Pacheco</span>

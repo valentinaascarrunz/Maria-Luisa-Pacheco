@@ -13,32 +13,23 @@ import { CensoSection } from './sections/CensoSection';
 import { ContactoSection } from './sections/ContactoSection';
 import { ArtworkDetailModal } from './components/ArtworkDetailModal';
 import { ChronologyLightbox } from './components/ChronologyLightbox';
+import { ImageContextMenu } from './components/ImageContextMenu';
 
 const MainLayout: React.FC = () => {
   const { seccionActiva, obraSeleccionada, setObraSeleccionada } = useSite();
 
-  // Global image protection: disable right-click (contextmenu) and dragging on all artworks and images
+  // Global image protection: disable dragging and native right-click on all artworks and images
   useEffect(() => {
-    const handleContextMenu = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (target && (target.closest('.protected-artwork') || target.tagName === 'IMG' || target.closest('[data-watermark]'))) {
-        e.preventDefault();
-        return false;
-      }
-    };
-
     const handleDragStart = (e: DragEvent) => {
       const target = e.target as HTMLElement;
-      if (target && (target.closest('.protected-artwork') || target.tagName === 'IMG' || target.closest('[data-watermark]'))) {
+      if (target && (target.closest('.protected-artwork') || target.tagName === 'IMG')) {
         e.preventDefault();
         return false;
       }
     };
 
-    document.addEventListener('contextmenu', handleContextMenu, true);
     document.addEventListener('dragstart', handleDragStart, true);
     return () => {
-      document.removeEventListener('contextmenu', handleContextMenu, true);
       document.removeEventListener('dragstart', handleDragStart, true);
     };
   }, []);
@@ -61,12 +52,13 @@ const MainLayout: React.FC = () => {
 
       <Footer />
 
-      {/* Global Modals & Lightboxes */}
+      {/* Global Modals, Lightboxes & Custom Context Menu */}
       <ArtworkDetailModal
         obra={obraSeleccionada}
         onClose={() => setObraSeleccionada(null)}
       />
       <ChronologyLightbox />
+      <ImageContextMenu />
     </div>
   );
 };
