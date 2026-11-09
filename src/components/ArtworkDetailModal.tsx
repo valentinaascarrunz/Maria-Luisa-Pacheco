@@ -64,6 +64,7 @@ export const ArtworkDetailModal: React.FC<ArtworkDetailModalProps> = ({ obra, on
               aspectRatio="aspect-4/3"
               className="w-full shadow-inner"
               showHoverOverlay={false}
+              isLightbox={true}
             />
             <p className="mt-2 text-[0.65rem] text-[#A39E97] tracking-wider uppercase text-center font-mono">
               © Herederos de María Luisa Pacheco · Reproducción prohibida

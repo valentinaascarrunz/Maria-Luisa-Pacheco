@@ -17,17 +17,30 @@ import { ChronologyLightbox } from './components/ChronologyLightbox';
 const MainLayout: React.FC = () => {
   const { seccionActiva, obraSeleccionada, setObraSeleccionada } = useSite();
 
-  // Basic global protection: disable right-click on all artworks
+  // Global image protection: disable right-click (contextmenu) and dragging on all artworks and images
   useEffect(() => {
     const handleContextMenu = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
-      if (target && (target.closest('.protected-artwork') || target.tagName === 'IMG')) {
+      if (target && (target.closest('.protected-artwork') || target.tagName === 'IMG' || target.closest('[data-watermark]'))) {
         e.preventDefault();
         return false;
       }
     };
-    document.addEventListener('contextmenu', handleContextMenu);
-    return () => document.removeEventListener('contextmenu', handleContextMenu);
+
+    const handleDragStart = (e: DragEvent) => {
+      const target = e.target as HTMLElement;
+      if (target && (target.closest('.protected-artwork') || target.tagName === 'IMG' || target.closest('[data-watermark]'))) {
+        e.preventDefault();
+        return false;
+      }
+    };
+
+    document.addEventListener('contextmenu', handleContextMenu, true);
+    document.addEventListener('dragstart', handleDragStart, true);
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu, true);
+      document.removeEventListener('dragstart', handleDragStart, true);
+    };
   }, []);
 
   return (

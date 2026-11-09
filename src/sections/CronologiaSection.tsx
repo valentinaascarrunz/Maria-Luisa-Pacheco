@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from '../components/ParsedText';
+import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import type { PeriodoCronologia, FotoCronologia } from '../types';
 import cronologiaData from '../contenido/cronologia.json';
 
@@ -138,12 +139,38 @@ interface PhotoCardProps {
 
 const PhotoCard: React.FC<PhotoCardProps> = ({ foto, onOpen }) => {
   const { idioma } = useSite();
+  const isPendingCard = !foto.imagen || foto.descripcion.includes('[PENDIENTE');
   const descActual =
     idioma === 'en' && foto.descripcion_en ? foto.descripcion_en : foto.descripcion;
   const lugarActual =
     idioma === 'en' && foto.lugar_en ? foto.lugar_en : foto.lugar;
   const creditoActual =
     idioma === 'en' && foto.credito_en ? foto.credito_en : foto.credito;
+
+  if (isPendingCard) {
+    return (
+      <div className="flex flex-col select-none">
+        <div className="relative aspect-4/3 overflow-hidden border border-dashed border-[var(--line-border)] bg-black/20 p-5 flex flex-col justify-between text-left">
+          <span className="text-[0.65rem] font-mono uppercase text-[#B07A3B] tracking-wider">
+            {foto.fecha}
+          </span>
+          <div className="space-y-1">
+            <p className="font-serif text-sm text-[#F5F2EC] leading-snug">
+              <ParsedText text={descActual} />
+            </p>
+            {lugarActual && (
+              <span className="text-[0.68rem] font-mono text-[#C9C4BC] block truncate">
+                <ParsedText text={lugarActual} />
+              </span>
+            )}
+          </div>
+          <span className="text-[0.6rem] font-mono uppercase tracking-widest text-[#B07A3B]">
+            {idioma === 'es' ? 'Archivo pendiente' : 'Pending archive'}
+          </span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -153,6 +180,10 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ foto, onOpen }) => {
         return false;
       }}
       className="group flex flex-col cursor-pointer protected-artwork select-none"
+      style={{
+        WebkitTouchCallout: 'none',
+        userSelect: 'none',
+      }}
     >
       {/* Photo Container */}
       <div className="relative aspect-4/3 overflow-hidden bg-[#EDE8E0] dark:bg-[#1E1D1B] border border-[var(--line-border)] flex items-center justify-center">
@@ -160,7 +191,17 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ foto, onOpen }) => {
           src={foto.imagen}
           alt={descActual}
           loading="lazy"
-          className="h-full w-full object-contain p-1.5"
+          draggable={false}
+          onDragStart={(e) => e.preventDefault()}
+          onContextMenu={(e) => {
+            e.preventDefault();
+            return false;
+          }}
+          className="h-full w-full object-contain p-1.5 select-none"
+          style={{
+            WebkitTouchCallout: 'none',
+            userSelect: 'none',
+          }}
           onError={(e) => {
             const target = e.currentTarget;
             target.style.display = 'none';
@@ -179,8 +220,11 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ foto, onOpen }) => {
           }}
         />
 
+        {/* Visible watermark overlay directly on the photo */}
+        <ArtworkWatermark />
+
         {/* Desktop Hover Overlay with 300ms opacity and 8px upward shift */}
-        <div className="hidden md:flex absolute inset-0 z-10 flex-col justify-end p-5 bg-black/80 section-dark opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+        <div className="hidden md:flex absolute inset-0 z-20 flex-col justify-end p-5 bg-black/80 section-dark opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
           <div className="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300 space-y-1">
             <p className="font-serif text-sm leading-snug text-[#F5F2EC] font-medium line-clamp-2">
               <ParsedText text={descActual} />

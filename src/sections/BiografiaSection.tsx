@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from '../components/ParsedText';
+import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import type { BiografiaCapitulo } from '../types';
 import biografiaData from '../contenido/biografia.json';
 import { Camera } from 'lucide-react';
@@ -17,16 +18,38 @@ export const BiografiaSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-14 items-center">
           {/* Left Column: Vertical Portrait */}
           <div className="md:col-span-5 flex flex-col items-center sm:items-start">
-            <div className="relative w-full max-w-sm overflow-hidden bg-[#EDE8E0] dark:bg-[#181716] border border-[var(--line-border)] shadow-md flex items-center justify-center">
+            <div
+              className="relative w-full max-w-sm overflow-hidden bg-[#EDE8E0] dark:bg-[#181716] border border-[var(--line-border)] shadow-md flex items-center justify-center protected-artwork select-none"
+              onContextMenu={(e) => {
+                e.preventDefault();
+                return false;
+              }}
+              style={{
+                WebkitTouchCallout: 'none',
+                userSelect: 'none',
+              }}
+            >
               {!photoError ? (
-                <img
-                  src="https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/retrato.png"
-                  alt="María Luisa Pacheco en su estudio"
-                  loading="eager"
-                  onError={() => setPhotoError(true)}
-                  className="w-full h-auto object-contain select-none"
-                  onContextMenu={(e) => e.preventDefault()}
-                />
+                <>
+                  <img
+                    src="https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/retrato.png"
+                    alt="María Luisa Pacheco en su estudio"
+                    loading="eager"
+                    draggable={false}
+                    onDragStart={(e) => e.preventDefault()}
+                    onContextMenu={(e) => {
+                      e.preventDefault();
+                      return false;
+                    }}
+                    onError={() => setPhotoError(true)}
+                    className="w-full h-auto object-contain select-none"
+                    style={{
+                      WebkitTouchCallout: 'none',
+                      userSelect: 'none',
+                    }}
+                  />
+                  <ArtworkWatermark />
+                </>
               ) : (
                 <div className="w-full aspect-3/4 flex flex-col items-center justify-center p-6 bg-[#EDE8E0] dark:bg-[#252321] text-center space-y-2">
                   <span className="font-serif text-lg text-[var(--text-primary)]">María Luisa Pacheco</span>
@@ -92,16 +115,16 @@ export const BiografiaSection: React.FC = () => {
                 )}
               </div>
 
-              {/* Photo space placeholder at the beginning of each chapter */}
+              {/* Photo space placeholder: [PENDIENTE: fotografía familiar] */}
               <div className="my-6 p-6 border border-dashed border-[var(--line-border)] bg-white/40 dark:bg-white/5 rounded-xs flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-[var(--text-secondary)]">
                 <div className="flex items-center gap-2">
                   <Camera size={16} className="text-[#B07A3B] shrink-0" />
                   <span>
-                    <ParsedText text={`[PENDIENTE: foto de archivo — ${tituloActual}]`} />
+                    <ParsedText text="[PENDIENTE: fotografía familiar]" />
                   </span>
                 </div>
                 <span className="text-[0.7rem] uppercase text-[#B07A3B]">
-                  {idioma === 'es' ? 'Espacio para foto de archivo' : 'Archival photo space'}
+                  {idioma === 'es' ? 'Fotografía familiar' : 'Family photograph'}
                 </span>
               </div>
 

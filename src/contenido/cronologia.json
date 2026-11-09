@@ -16,37 +16,15 @@
     ],
     "fotos": [
       {
-        "id": "foto-1919-estudio-padre",
-        "imagen": "/imagenes/cronologia/lapaz-estudio-1925.jpg",
-        "descripcion": "Estudio de arquitectura de Julio Mariaca Pando en La Paz, donde María Luisa aprendió sus primeras herramientas de dibujo.",
-        "descripcion_en": "Julio Mariaca Pando's architecture studio in La Paz, where María Luisa learned her first drawing tools.",
+        "id": "foto-1919-pendiente-familiar",
+        "imagen": "",
+        "descripcion": "[PENDIENTE: fotografía familiar]",
+        "descripcion_en": "[PENDIENTE: family photograph]",
         "lugar": "La Paz, Bolivia",
         "lugar_en": "La Paz, Bolivia",
-        "fecha": "c. 1925",
-        "credito": "[PENDIENTE: archivo familiar]",
-        "credito_en": "[PENDIENTE: family archive]"
-      },
-      {
-        "id": "foto-1919-lapaz-panoramica",
-        "imagen": "/imagenes/cronologia/lapaz-panoramica-1930.jpg",
-        "descripcion": "La Paz en la década de 1930, con la cordillera del Illimani al fondo.",
-        "descripcion_en": "La Paz in the 1930s, with Mount Illimani in the background.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "c. 1930",
-        "credito": "[PENDIENTE: fotógrafo desconocido]",
-        "credito_en": "[PENDIENTE: unknown photographer]"
-      },
-      {
-        "id": "foto-1919-primeros-dibujos",
-        "imagen": "/imagenes/cronologia/primeros-dibujos-1934.jpg",
-        "descripcion": "Bocetos de juventud y estudios de perspectiva geométrica.",
-        "descripcion_en": "Youth sketches and studies in geometric perspective.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "c. 1934",
-        "credito": "[PENDIENTE: Archivo María Luisa Pacheco]",
-        "credito_en": "[PENDIENTE: María Luisa Pacheco Archive]"
+        "fecha": "1919–1935",
+        "credito": "",
+        "credito_en": ""
       }
     ]
   },
@@ -77,48 +55,15 @@
     ],
     "fotos": [
       {
-        "id": "foto-1936-academia-siles",
-        "imagen": "/imagenes/cronologia/academia-hernando-siles-1940.jpg",
-        "descripcion": "Academia Nacional de Bellas Artes Hernando Siles, La Paz.",
-        "descripcion_en": "Academia Nacional de Bellas Artes Hernando Siles, La Paz.",
+        "id": "foto-1936-pendiente-familiar",
+        "imagen": "",
+        "descripcion": "[PENDIENTE: fotografía familiar]",
+        "descripcion_en": "[PENDIENTE: family photograph]",
         "lugar": "La Paz, Bolivia",
         "lugar_en": "La Paz, Bolivia",
-        "fecha": "c. 1940",
-        "credito": "[PENDIENTE]",
-        "credito_en": "[PENDIENTE]"
-      },
-      {
-        "id": "foto-1946-la-razon",
-        "imagen": "/imagenes/cronologia/la-razon-ilustracion-1947.jpg",
-        "descripcion": "Página del suplemento dominical de La Razón con ilustración de María Luisa Pacheco.",
-        "descripcion_en": "Page from the Sunday supplement of La Razón with an illustration by María Luisa Pacheco.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "1947",
-        "credito": "Diario La Razón / [PENDIENTE]",
-        "credito_en": "Diario La Razón / [PENDIENTE]"
-      },
-      {
-        "id": "foto-1948-iv-centenario",
-        "imagen": "/imagenes/cronologia/iv-centenario-libro-1948.jpg",
-        "descripcion": "Libro conmemorativo 'La Paz en su IV Centenario 1548–1948', ilustrado por la artista.",
-        "descripcion_en": "Commemorative book 'La Paz en su IV Centenario 1548–1948', illustrated by the artist.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "1948",
-        "credito": "Comité del IV Centenario de La Paz",
-        "credito_en": "IV Centenary Committee of La Paz"
-      },
-      {
-        "id": "foto-1945-escultura",
-        "imagen": "/imagenes/cronologia/escultura-estudio-1945.jpg",
-        "descripcion": "Estudio escultórico de mediados de los años cuarenta (obra en paradero desconocido).",
-        "descripcion_en": "Sculptural study from the mid-1940s (work currently unlocated).",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "c. 1945",
-        "credito": "[PENDIENTE: archivo familiar]",
-        "credito_en": "[PENDIENTE: family archive]"
+        "fecha": "1936–1950",
+        "credito": "",
+        "credito_en": ""
       }
     ]
   },
@@ -154,48 +99,26 @@
     ],
     "fotos": [
       {
-        "id": "foto-1951-madrid-sanfernando",
-        "imagen": "/imagenes/cronologia/madrid-san-fernando-1951.jpg",
-        "descripcion": "Real Academia de Bellas Artes de San Fernando, Madrid, donde Pacheco cursó estudios becada por el gobierno español.",
-        "descripcion_en": "Real Academia de Bellas Artes de San Fernando, Madrid, where Pacheco studied on a fellowship from the Spanish government.",
-        "lugar": "Madrid, España",
-        "lugar_en": "Madrid, Spain",
-        "fecha": "1951",
-        "credito": "[PENDIENTE]",
-        "credito_en": "[PENDIENTE]"
-      },
-      {
-        "id": "foto-1952-ocho-contemporaneos",
-        "imagen": "/imagenes/cronologia/ocho-contemporaneos-1952.jpg",
-        "descripcion": "Integrantes de Los Ocho Contemporáneos (Generación del 52) en La Paz.",
-        "descripcion_en": "Members of Los Ocho Contemporáneos (Generation of '52) in La Paz.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "c. 1952",
-        "credito": "[PENDIENTE: archivo histórico]",
-        "credito_en": "[PENDIENTE: historical archive]"
-      },
-      {
-        "id": "foto-1953-salon-murillo",
-        "imagen": "/imagenes/cronologia/salon-murillo-1953.jpg",
-        "descripcion": "Catálogo del Salón Pedro Domingo Murillo de 1953, donde Pacheco obtuvo el Primer Premio.",
-        "descripcion_en": "Catalog of the Salón Pedro Domingo Murillo of 1953, where Pacheco won First Prize.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "1953",
-        "credito": "[PENDIENTE]",
-        "credito_en": "[PENDIENTE]"
-      },
-      {
         "id": "foto-1954-paisaje-andino",
         "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/2020-29_sb_2021-11-089957.jpg",
-        "descripcion": "Sin título (Paisaje andino), 1954, emblemática obra de su etapa de cubismo andino.",
-        "descripcion_en": "Untitled (Andean Landscape), 1954, signature work of her Andean Cubist period.",
+        "descripcion": "Sin título (Paisaje andino), 1954",
+        "descripcion_en": "Untitled (Andean Landscape), 1954",
         "lugar": "Davis Museum, Wellesley College",
         "lugar_en": "Davis Museum, Wellesley College",
         "fecha": "1954",
-        "credito": "Davis Museum / Wellesley College",
-        "credito_en": "Davis Museum / Wellesley College"
+        "credito": "",
+        "credito_en": ""
+      },
+      {
+        "id": "foto-1955-sin-titulo",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/maria-luisa-pacheco-untitled-1955-1955-trivium-art-history.jpg",
+        "descripcion": "Sin título, 1955",
+        "descripcion_en": "Untitled, 1955",
+        "lugar": "[PENDIENTE]",
+        "lugar_en": "[PENDIENTE]",
+        "fecha": "1955",
+        "credito": "",
+        "credito_en": ""
       }
     ]
   },
@@ -234,6 +157,11 @@
         "texto_en": "Latin America: New Departures, Institute of Contemporary Art, Boston"
       },
       {
+        "anio": "1961",
+        "texto": "Visita Bolivia.",
+        "texto_en": "Visits Bolivia."
+      },
+      {
         "anio": "1964",
         "texto": "Magnet: New York, Galería Bonino, Nueva York",
         "texto_en": "Magnet: New York, Galería Bonino, New York"
@@ -241,48 +169,37 @@
     ],
     "fotos": [
       {
-        "id": "foto-1960-estudio-smithsonian",
-        "imagen": "/imagenes/cronologia/estudio-ny-1960.jpg",
-        "descripcion": "María Luisa Pacheco pintando en su estudio, c. 1960.",
-        "descripcion_en": "María Luisa Pacheco painting in her studio, c. 1960.",
-        "lugar": "Nueva York, Estados Unidos",
-        "lugar_en": "New York, United States",
+        "id": "foto-retrato-estudio",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/retrato.png",
+        "descripcion": "María Luisa Pacheco en su estudio [VERIFICAR: lugar y año]",
+        "descripcion_en": "María Luisa Pacheco in her studio [VERIFICAR: location and year]",
+        "lugar": "[VERIFICAR: lugar y año]",
+        "lugar_en": "[VERIFICAR: location and year]",
         "fecha": "c. 1960",
-        "credito": "Archives of American Art, Smithsonian Institution",
-        "credito_en": "Archives of American Art, Smithsonian Institution"
-      },
-      {
-        "id": "foto-1959-sao-paulo",
-        "imagen": "/imagenes/cronologia/sao-paulo-bienal-1959.jpg",
-        "descripcion": "V Bienal de São Paulo, 1959, donde María Luisa Pacheco fue laureada con el premio de pintura.",
-        "descripcion_en": "V São Paulo Biennial, 1959, where María Luisa Pacheco was awarded the painting prize.",
-        "lugar": "São Paulo, Brasil",
-        "lugar_en": "São Paulo, Brazil",
-        "fecha": "1959",
-        "credito": "[PENDIENTE]",
-        "credito_en": "[PENDIENTE]"
+        "credito": "",
+        "credito_en": ""
       },
       {
         "id": "foto-1960-composicion",
         "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/unnamed.jpg",
-        "descripcion": "Composición (1960), óleo sobre tela conservado en el Art Museum of the Americas.",
-        "descripcion_en": "Composición (1960), oil on canvas held in the Art Museum of the Americas.",
-        "lugar": "Washington, D.C.",
-        "lugar_en": "Washington, D.C.",
+        "descripcion": "Composición, 1960",
+        "descripcion_en": "Composition, 1960",
+        "lugar": "Art Museum of the Americas (OEA), Washington",
+        "lugar_en": "Art Museum of the Americas (OAS), Washington",
         "fecha": "1960",
-        "credito": "Art Museum of the Americas (OAS)",
-        "credito_en": "Art Museum of the Americas (OAS)"
+        "credito": "",
+        "credito_en": ""
       },
       {
-        "id": "foto-1964-bonino",
-        "imagen": "/imagenes/cronologia/galeria-bonino-1964.jpg",
-        "descripcion": "Exposición colectiva 'Magnet: New York', Galería Bonino, Nueva York.",
-        "descripcion_en": "Group exhibition 'Magnet: New York', Galería Bonino, New York.",
-        "lugar": "Nueva York, Estados Unidos",
-        "lugar_en": "New York, United States",
-        "fecha": "1964",
-        "credito": "[PENDIENTE]",
-        "credito_en": "[PENDIENTE]"
+        "id": "foto-1966-sin-titulo",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/normalized.jpg",
+        "descripcion": "Sin título, 1966",
+        "descripcion_en": "Untitled, 1966",
+        "lugar": "Blanton Museum of Art, Austin",
+        "lugar_en": "Blanton Museum of Art, Austin",
+        "fecha": "1966",
+        "credito": "",
+        "credito_en": ""
       }
     ]
   },
@@ -318,48 +235,103 @@
     ],
     "fotos": [
       {
-        "id": "foto-1971-lee-ault",
-        "imagen": "/imagenes/cronologia/lee-ault-galeria-1971.jpg",
-        "descripcion": "Catálogo de la exposición de María Luisa Pacheco en Lee Ault & Company, Nueva York.",
-        "descripcion_en": "Catalog for María Luisa Pacheco's solo exhibition at Lee Ault & Company, New York.",
-        "lugar": "Nueva York, Estados Unidos",
-        "lugar_en": "New York, United States",
-        "fecha": "1971",
-        "credito": "Lee Ault & Company / [PENDIENTE]",
-        "credito_en": "Lee Ault & Company / [PENDIENTE]"
+        "id": "foto-sin-titulo-1970-bid",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/Sin%20t%C3%ADtulo%20%281970%29%2C%20BID.jpg",
+        "descripcion": "Sin título, 1970",
+        "descripcion_en": "Untitled, 1970",
+        "lugar": "Banco Interamericano de Desarrollo, Washington",
+        "lugar_en": "Inter-American Development Bank, Washington",
+        "fecha": "1970",
+        "credito": "",
+        "credito_en": ""
       },
       {
-        "id": "foto-1974-catavi-detalle",
+        "id": "foto-megalith-1971",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/Megalith%20%281971%29.jpg",
+        "descripcion": "Megalith, 1971",
+        "descripcion_en": "Megalith, 1971",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1971",
+        "credito": "",
+        "credito_en": ""
+      },
+      {
+        "id": "foto-wila-1972",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/maria-luisa-pacheco-wila-1972-trivium-art-history.jpg",
+        "descripcion": "Wila, 1972",
+        "descripcion_en": "Wila, 1972",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1972",
+        "credito": "",
+        "credito_en": ""
+      },
+      {
+        "id": "foto-cosmos-1972",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/cosmos-1972.webp",
+        "descripcion": "Cosmos, 1972",
+        "descripcion_en": "Cosmos, 1972",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1972",
+        "credito": "",
+        "credito_en": ""
+      },
+      {
+        "id": "foto-cordillera-1973",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/Cordillera%20%281973%29.jpg",
+        "descripcion": "Cordillera, 1973",
+        "descripcion_en": "Cordillera, 1973",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1973",
+        "credito": "",
+        "credito_en": ""
+      },
+      {
+        "id": "foto-catavi-1974",
         "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/catavi-1974.jpeg",
-        "descripcion": "Catavi (1974), relieve monumental de óleo y madera sobre tela (147 × 336 cm).",
-        "descripcion_en": "Catavi (1974), monumental relief of oil and wood on canvas (147 × 336 cm).",
+        "descripcion": "Catavi, 1974",
+        "descripcion_en": "Catavi, 1974",
         "lugar": "Blanton Museum of Art, Austin",
         "lugar_en": "Blanton Museum of Art, Austin",
         "fecha": "1974",
-        "credito": "Blanton Museum of Art",
-        "credito_en": "Blanton Museum of Art"
+        "credito": "",
+        "credito_en": ""
       },
       {
-        "id": "foto-1976-conferencia-lapaz",
-        "imagen": "/imagenes/cronologia/conferencia-mna-1976.jpg",
-        "descripcion": "Museo Nacional de Arte de La Paz, sede de su conferencia sobre abstracción en 1976.",
-        "descripcion_en": "Museo Nacional de Arte in La Paz, venue of her 1976 lecture on abstraction.",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "1976",
-        "credito": "[PENDIENTE]",
-        "credito_en": "[PENDIENTE]"
+        "id": "foto-mallasa-1974",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/maria-luisa-pacheco-mallasa-1974-trivium-art-history.jpg",
+        "descripcion": "Mallasa, 1974",
+        "descripcion_en": "Mallasa, 1974",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1974",
+        "credito": "",
+        "credito_en": ""
       },
       {
-        "id": "foto-1982-smithsonian-donacion",
-        "imagen": "/imagenes/cronologia/smithsonian-documentos-1982.jpg",
-        "descripcion": "Cajas y documentos del fondo 'María Luisa Pacheco papers' en el Smithsonian.",
-        "descripcion_en": "Boxes and documentation from the 'María Luisa Pacheco papers' at the Smithsonian.",
-        "lugar": "Washington, D.C.",
-        "lugar_en": "Washington, D.C.",
-        "fecha": "1982",
-        "credito": "Archives of American Art, Smithsonian Institution",
-        "credito_en": "Archives of American Art, Smithsonian Institution"
+        "id": "foto-sin-titulo-1975",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/sin-titulo-1975.jpg",
+        "descripcion": "Sin título, 1975",
+        "descripcion_en": "Untitled, 1975",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1975",
+        "credito": "",
+        "credito_en": ""
+      },
+      {
+        "id": "foto-montanas-1979",
+        "imagen": "https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/maria-luisa-pacheco-montanas-1979-trivium-art-history.jpg",
+        "descripcion": "Montañas, 1979",
+        "descripcion_en": "Mountains, 1979",
+        "lugar": "Colección privada",
+        "lugar_en": "Private collection",
+        "fecha": "1979",
+        "credito": "",
+        "credito_en": ""
       }
     ]
   },
@@ -415,48 +387,15 @@
     ],
     "fotos": [
       {
-        "id": "foto-1986-tribute-oea",
-        "imagen": "/imagenes/cronologia/tribute-pacheco-oea-1986.jpg",
-        "descripcion": "Catálogo de la exposición 'Tribute to María Luisa Pacheco of Bolivia', Washington, 1986.",
-        "descripcion_en": "Catalog for the exhibition 'Tribute to María Luisa Pacheco of Bolivia', Washington, 1986.",
-        "lugar": "Washington, D.C.",
-        "lugar_en": "Washington, D.C.",
-        "fecha": "1986",
-        "credito": "Organization of American States (OAS)",
-        "credito_en": "Organization of American States (OAS)"
-      },
-      {
-        "id": "foto-2010-libro-monografia",
-        "imagen": "/imagenes/cronologia/libro-baya-botti-2010.jpg",
-        "descripcion": "Monografía 'María Luisa Pacheco', editada por Cecilia Bayá Botti (Editorial Oxígeno, 2010).",
-        "descripcion_en": "Monograph 'María Luisa Pacheco', edited by Cecilia Bayá Botti (Editorial Oxígeno, 2010).",
-        "lugar": "La Paz, Bolivia",
-        "lugar_en": "La Paz, Bolivia",
-        "fecha": "2010",
-        "credito": "Editorial Oxígeno / Colección Cecilia Bayá Botti",
-        "credito_en": "Editorial Oxígeno / Cecilia Bayá Botti Collection"
-      },
-      {
-        "id": "foto-2023-ama-exposicion",
-        "imagen": "/imagenes/cronologia/geografias-abstraccion-2023.jpg",
-        "descripcion": "Exposición 'Geografías de la abstracción: La Paz, Madrid, Nueva York', Art Museum of the Americas, Washington, 2023.",
-        "descripcion_en": "Exhibition 'Geografías de la abstracción: La Paz, Madrid, Nueva York', Art Museum of the Americas, Washington, 2023.",
-        "lugar": "Washington, D.C.",
-        "lugar_en": "Washington, D.C.",
-        "fecha": "2023",
-        "credito": "AMA / Curadoras: Olga U. Herrera y Adriana Ospina",
-        "credito_en": "AMA / Curators: Olga U. Herrera and Adriana Ospina"
-      },
-      {
-        "id": "foto-2024-christies-kinesis",
-        "imagen": "/imagenes/cronologia/christies-kinesis-2024.jpg",
-        "descripcion": "Kinesis (1975), óleo y arena sobre tela, récord en subasta en Christie's.",
-        "descripcion_en": "Kinesis (1975), oil and sand on canvas, auction record at Christie's.",
-        "lugar": "Nueva York, Estados Unidos",
-        "lugar_en": "New York, United States",
-        "fecha": "2024",
-        "credito": "Christie's Images Ltd.",
-        "credito_en": "Christie's Images Ltd."
+        "id": "foto-legado-pendiente-exposicion",
+        "imagen": "",
+        "descripcion": "[PENDIENTE: fotografía de exposición]",
+        "descripcion_en": "[PENDIENTE: exhibition photograph]",
+        "lugar": "",
+        "lugar_en": "",
+        "fecha": "1982–hoy",
+        "credito": "",
+        "credito_en": ""
       }
     ]
   }

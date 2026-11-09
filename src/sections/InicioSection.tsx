@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ArtworkImage } from '../components/ArtworkImage';
+import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import { ParsedText } from '../components/ParsedText';
 import { ChevronRight, ArrowRight, Pause, Play } from 'lucide-react';
 import type { Obra } from '../types';
@@ -31,13 +32,36 @@ const StageImageCard: React.FC<StageImageCardProps> = ({ imagen, titulo, anios, 
   }
 
   return (
-    <img
-      src={imagen}
-      alt={`${titulo} — María Luisa Pacheco`}
-      loading="lazy"
-      onError={() => setHasError(true)}
-      className="w-full h-full object-contain p-2 hover:opacity-100 transition-opacity select-none"
-    />
+    <div
+      className="relative w-full h-full flex items-center justify-center overflow-hidden protected-artwork select-none"
+      onContextMenu={(e) => {
+        e.preventDefault();
+        return false;
+      }}
+      style={{
+        WebkitTouchCallout: 'none',
+        userSelect: 'none',
+      }}
+    >
+      <img
+        src={imagen}
+        alt={`${titulo} — María Luisa Pacheco`}
+        loading="lazy"
+        draggable={false}
+        onDragStart={(e) => e.preventDefault()}
+        onContextMenu={(e) => {
+          e.preventDefault();
+          return false;
+        }}
+        onError={() => setHasError(true)}
+        className="w-full h-full object-contain p-2 hover:opacity-100 transition-opacity select-none"
+        style={{
+          WebkitTouchCallout: 'none',
+          userSelect: 'none',
+        }}
+      />
+      <ArtworkWatermark />
+    </div>
   );
 };
 
@@ -151,12 +175,34 @@ export const InicioSection: React.FC = () => {
       {/* 1. Fullscreen Hero Artwork with Identity */}
       <section className="relative w-full min-h-[85vh] lg:min-h-[90vh] flex flex-col justify-end p-6 sm:p-12 md:p-16 overflow-hidden section-dark text-[#F5F2EC]">
         {/* Fullscreen background artwork: Montañas (1979) with dark overlay for legibility */}
-        <div className="absolute inset-0 z-0 overflow-hidden">
+        <div
+          className="absolute inset-0 z-0 overflow-hidden select-none protected-artwork"
+          onContextMenu={(e) => {
+            e.preventDefault();
+            return false;
+          }}
+          style={{
+            WebkitTouchCallout: 'none',
+            userSelect: 'none',
+          }}
+        >
           <img
             src="https://raw.githubusercontent.com/valentinaascarrunz/mlp-imagenes/main/maria-luisa-pacheco-montanas-1979-trivium-art-history.jpg"
             alt="Montañas (1979) — María Luisa Pacheco"
-            className="w-full h-full object-cover"
+            draggable={false}
+            onDragStart={(e) => e.preventDefault()}
+            onContextMenu={(e) => {
+              e.preventDefault();
+              return false;
+            }}
+            className="w-full h-full object-cover select-none"
+            style={{
+              WebkitTouchCallout: 'none',
+              userSelect: 'none',
+            }}
           />
+          {/* Visible watermark overlay on hero artwork */}
+          <ArtworkWatermark />
           {/* Dark overlay ensuring artist name and typography are perfectly readable */}
           <div className="absolute inset-0 bg-[#1E1D1B]/75" />
         </div>

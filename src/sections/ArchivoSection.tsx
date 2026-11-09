@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from '../components/ParsedText';
+import { ArtworkWatermark } from '../components/ArtworkWatermark';
 import type { ArchivoData } from '../types';
 import archivoDataRaw from '../contenido/archivo.json';
 import { ExternalLink, BookOpen, Archive, Image as ImageIcon, Link as LinkIcon } from 'lucide-react';
@@ -103,7 +104,11 @@ export const ArchivoSection: React.FC = () => {
                   e.preventDefault();
                   return false;
                 }}
-                className="relative aspect-4/3 section-dark flex items-center justify-center p-6 text-center protected-artwork select-none"
+                className="relative aspect-4/3 section-dark flex items-center justify-center p-6 text-center protected-artwork select-none overflow-hidden"
+                style={{
+                  WebkitTouchCallout: 'none',
+                  userSelect: 'none',
+                }}
               >
                 {/* Image or Smithsonian placeholder */}
                 <div className="flex flex-col items-center justify-center space-y-2">
@@ -115,6 +120,9 @@ export const ArchivoSection: React.FC = () => {
                   </p>
                   <span className="text-xs font-mono text-[#C9C4BC]">{foto.fuente}</span>
                 </div>
+
+                {/* Visible watermark overlay on photo container */}
+                <ArtworkWatermark />
               </div>
 
               <div className="p-6 space-y-3">

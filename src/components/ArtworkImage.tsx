@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { Obra } from '../types';
 import { useSite } from '../context/SiteContext';
+import { ArtworkWatermark } from './ArtworkWatermark';
 
 interface ArtworkImageProps {
   obra: Obra;
@@ -10,6 +11,7 @@ interface ArtworkImageProps {
   showHoverOverlay?: boolean;
   hidePlaceholderText?: boolean;
   objectFit?: 'contain' | 'cover';
+  isLightbox?: boolean;
 }
 
 export const ArtworkImage: React.FC<ArtworkImageProps> = ({
@@ -20,6 +22,7 @@ export const ArtworkImage: React.FC<ArtworkImageProps> = ({
   showHoverOverlay = true,
   hidePlaceholderText = false,
   objectFit = 'contain',
+  isLightbox = false,
 }) => {
   const { idioma } = useSite();
   const [imageError, setImageError] = useState(false);
@@ -39,20 +42,38 @@ export const ArtworkImage: React.FC<ArtworkImageProps> = ({
       className={`group relative overflow-hidden bg-[#EDE8E0] dark:bg-[#1E1D1B] ${aspectRatio} ${className} ${
         onClick ? 'cursor-pointer' : ''
       } protected-artwork select-none flex items-center justify-center`}
+      style={{
+        WebkitTouchCallout: 'none',
+        userSelect: 'none',
+      }}
     >
       {/* 1. Real artwork image (normal img tag, no filters, full artwork contain) */}
       {hasImage && !imageError ? (
-        <img
-          src={obra.imagen!}
-          alt={`${tituloActual} (${obra.anio}) — María Luisa Pacheco`}
-          loading="lazy"
-          onError={() => setImageError(true)}
-          className={`w-full h-full ${
-            objectFit === 'cover'
-              ? 'object-cover'
-              : 'object-contain p-2'
-          }`}
-        />
+        <>
+          <img
+            src={obra.imagen!}
+            alt={`${tituloActual} (${obra.anio}) — María Luisa Pacheco`}
+            loading="lazy"
+            draggable={false}
+            onDragStart={(e) => e.preventDefault()}
+            onContextMenu={(e) => {
+              e.preventDefault();
+              return false;
+            }}
+            onError={() => setImageError(true)}
+            className={`w-full h-full ${
+              objectFit === 'cover'
+                ? 'object-cover'
+                : 'object-contain p-2'
+            } select-none`}
+            style={{
+              WebkitTouchCallout: 'none',
+              userSelect: 'none',
+            }}
+          />
+          {/* Visible watermark overlay on top of the image */}
+          <ArtworkWatermark isLightbox={isLightbox} />
+        </>
       ) : (
         /* 2. Completely neutral placeholder when there is no file */
         <div className="absolute inset-0 flex flex-col justify-between p-5 sm:p-6 bg-[#EDE8E0] dark:bg-[#252321] text-center border border-[var(--line-border)]">

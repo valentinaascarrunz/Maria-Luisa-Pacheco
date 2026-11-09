@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSite } from '../context/SiteContext';
 import { ParsedText } from './ParsedText';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArtworkWatermark } from './ArtworkWatermark';
 
 export const ChronologyLightbox: React.FC = () => {
   const {
@@ -76,36 +77,55 @@ export const ChronologyLightbox: React.FC = () => {
           </button>
         )}
 
-        {/* Large Image Frame with Stone Fallback */}
+        {/* Large Image Frame with Stone Fallback & Watermark */}
         <div
           onContextMenu={(e) => {
             e.preventDefault();
             return false;
           }}
-          className="relative w-full max-h-[65vh] flex items-center justify-center section-dark border border-white/10 overflow-hidden protected-artwork"
+          className="relative w-full max-h-[65vh] flex items-center justify-center section-dark border border-white/10 overflow-hidden protected-artwork select-none"
+          style={{
+            WebkitTouchCallout: 'none',
+            userSelect: 'none',
+          }}
         >
-          <img
-            src={fotoLightbox.imagen}
-            alt={descActual}
-            className="max-h-[65vh] w-auto max-w-full object-contain"
-            onError={(e) => {
-              // Gracefully handle missing real image with an elegant archive placeholder
-              const target = e.currentTarget;
-              target.style.display = 'none';
-              const parent = target.parentElement;
-              if (parent) {
-                const placeholder = document.createElement('div');
-                placeholder.className =
-                  'h-72 w-full flex flex-col items-center justify-center p-8 bg-[#1E1D1B] section-dark text-center';
-                placeholder.innerHTML = `
-                  <span class="text-xs uppercase tracking-widest text-[#D49B55] font-mono mb-2">Archivo Histórico · Fotografía de Período</span>
-                  <p class="font-serif text-xl max-w-lg text-[#F5F2EC] mb-3">${descActual}</p>
-                  <span class="text-[0.7rem] font-mono text-[#C9C4BC]">${fotoLightbox.imagen}</span>
-                `;
-                parent.appendChild(placeholder);
-              }
-            }}
-          />
+          {fotoLightbox.imagen && (
+            <>
+              <img
+                src={fotoLightbox.imagen}
+                alt={descActual}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+                onContextMenu={(e) => {
+                  e.preventDefault();
+                  return false;
+                }}
+                className="max-h-[65vh] w-auto max-w-full object-contain select-none"
+                style={{
+                  WebkitTouchCallout: 'none',
+                  userSelect: 'none',
+                }}
+                onError={(e) => {
+                  // Gracefully handle missing real image with an elegant archive placeholder
+                  const target = e.currentTarget;
+                  target.style.display = 'none';
+                  const parent = target.parentElement;
+                  if (parent) {
+                    const placeholder = document.createElement('div');
+                    placeholder.className =
+                      'h-72 w-full flex flex-col items-center justify-center p-8 bg-[#1E1D1B] section-dark text-center';
+                    placeholder.innerHTML = `
+                      <span class="text-xs uppercase tracking-widest text-[#D49B55] font-mono mb-2">Archivo Histórico · Fotografía de Período</span>
+                      <p class="font-serif text-xl max-w-lg text-[#F5F2EC] mb-3">${descActual}</p>
+                      <span class="text-[0.7rem] font-mono text-[#C9C4BC]">${fotoLightbox.imagen}</span>
+                    `;
+                    parent.appendChild(placeholder);
+                  }
+                }}
+              />
+              <ArtworkWatermark isLightbox={true} />
+            </>
+          )}
         </div>
 
         {/* Detailed Caption Below */}
